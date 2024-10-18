@@ -1,6 +1,5 @@
 import { useState } from 'react';
-import { ExpandCollapse } from "../../Atoms/HeaderNavItem/ExpandCollapse";
-import { LinkButton } from "../../Atoms/HeaderNavItem/LinkButton";
+import { LinkButton } from "../../Atoms/HeaderNavItem/NavLinkButton";
 import { HeaderNavContainer } from "./HeaderNav.styled";
 
 export const HeaderNav = () => {
@@ -20,13 +19,13 @@ export const HeaderNav = () => {
                 onClick={() => handleClick('comeceAgora')} // Passa o identificador para a função de clique
             />
 
-            <ExpandCollapse 
+            <LinkButton 
                 text={'Soluções'}
                 isActive={activeItem === 'solucoes'} // Compara para definir se é ativo
                 onClick={() => handleClick('solucoes')} // Passa o identificador para a função de clique
             />
 
-            <ExpandCollapse 
+            <LinkButton
                 text={'Recursos'}
                 isActive={activeItem === 'recursos'} // Compara para definir se é ativo
                 onClick={() => handleClick('recursos')} // Passa o identificador para a função de clique

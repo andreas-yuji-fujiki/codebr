@@ -1,4 +1,4 @@
-import { LinkButtonContainer } from "./HeaderNavItem.styled";
+import { LinkButtonContainer } from "./NavLinkButton.styled";
 
 export const LinkButton = ({ text, path, isActive, onClick }) => {
     const buttonClass = isActive ? 'active' : '';
