@@ -1,7 +1,8 @@
-import { CallToActionTitleContainer } from "./CallToActionTitle.styled"
+import { CallToActionTitleContainer } from "../Title/CallToActionTitle.styled";
 
-export const CallToActionTitle = () => {
+export const  CallToActionTitle = () => (
     <CallToActionTitleContainer>
-        Oie!!!!!
+        Levante seu projeto em <br/>
+        um clique. <span>Não é exagero!</span>
     </CallToActionTitleContainer>
-}
+);

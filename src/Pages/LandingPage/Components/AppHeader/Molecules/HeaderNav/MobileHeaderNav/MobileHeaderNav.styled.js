@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const MobileNavContainer = styled.div`
-    display: none;;
+    display: none;
 
     color: #fff;
     padding: 5px 26px 5px 0;
@@ -38,7 +38,7 @@ export const MobileMenuBar = styled.div`
 
     width: 320px;
     height: 98vh;
-    background-color: #2222;
+    background-color: #0e1015;
 
     position: fixed;
     left: 1px;

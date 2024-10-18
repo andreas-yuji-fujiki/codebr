@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const CarouselContainer = styled.div`
   display: inline-flex;
+  margin-top: 40px;
   height: 238px;
 
   align-items: flex-start;
@@ -13,7 +14,7 @@ export const CarouselContainer = styled.div`
 
 export const CarouselItem = styled.div`
   height: 200px;
-  width: 280px;
+  width: 250px;
   margin: 0 -40px;
   border-radius: 10px;
   color: #000;

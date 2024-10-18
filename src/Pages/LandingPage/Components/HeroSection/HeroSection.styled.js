@@ -5,21 +5,22 @@ export const Section = styled.section`
     border-top: 2px solid transparent;
     height: 70vh;
 
-    background-image: url('hero-section-bg.webp');
+    /* background-image: url('hero-section-bg.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    opacity: 0.9;
+    opacity: 1; */
 `
 
 // container
 export const HeroSectionContaier = styled.div`
     max-width: 1340px;
     
-    margin: 50px auto 0 auto;
+    margin: 0 auto;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    height: 100%;
 `
