@@ -17,6 +17,32 @@ export const LoginButtonContainer = styled.button`
     &:hover{
         opacity: 1;
     }
+
+    @media(max-width: 660px){
+        margin-top: -3px;
+        font-size: 15px;
+        border: none;
+        background-color: #fff;
+        color: #000;
+
+        font-weight: 900;
+        letter-spacing: 1.2px;
+        opacity: 0.9;
+
+        padding: 8px 20px;
+        border-radius: 20px;
+
+        &:hover{
+            transition: 0.2s linear;
+            background-color: #007bff;
+            color: #fff;
+        }
+    }
+
+    @media(max-width: 380px){
+        font-size: 13px;
+        padding: 7px 15px;
+    }
 `
 
 // subscribe button component
@@ -38,5 +64,9 @@ export const SubscribeButtonContainer = styled.button`
         transition: 0.2s linear;
         background-color: #007bff;
         color: #fff;
+    }
+
+    @media(max-width: 660px){
+        display: none;
     }
 `
