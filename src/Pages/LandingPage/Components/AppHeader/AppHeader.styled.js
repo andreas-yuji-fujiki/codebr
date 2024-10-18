@@ -1,8 +1,11 @@
 import styled from "styled-components";
 
 export const AppHeaderContainer = styled.div`
-    border: 1px solid white;
     border-top: none;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
     padding: 22px 10px 13px 30px;
     max-width: 1440px;
