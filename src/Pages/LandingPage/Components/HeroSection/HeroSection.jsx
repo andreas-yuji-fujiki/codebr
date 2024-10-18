@@ -1,11 +1,9 @@
-import TemplatesCarousel from './TemplatesCarousel/TemplatesCarousel';
+import TemplatesCarousel from './Atoms/TemplatesCarousel/TemplatesCarousel';
 
-const HeroSection = () => {
+export const HeroSection = () => {
   return (
     <>
       <TemplatesCarousel />
     </>
   );
 };
-
-export default HeroSection;
