@@ -96,7 +96,7 @@ Error generating stack: `+o.message+`
     background-color: #0e1015;
 
     position: fixed;
-    left: 1px;
+    left: 0.5vw;
     top: 1vh;
     
     outline: 1px solid #f178f7;
