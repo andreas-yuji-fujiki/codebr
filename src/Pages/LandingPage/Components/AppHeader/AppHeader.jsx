@@ -1,5 +1,12 @@
+// components
+import { LogoTitle } from "./Atoms/LogoTitle/LogoTitle"
+
+// styles
+import { AppHeaderContainer } from "./AppHeader.styled"
 export const AppHeader = () => {
     return(
-        <h1>oi</h1>
+        <AppHeaderContainer>
+            <LogoTitle/>
+        </AppHeaderContainer>
     )
 }
