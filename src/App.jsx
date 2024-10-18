@@ -1,9 +1,8 @@
+import HeroSection from './Components/HeroSection/HeroSection'
 export function App(){
   return(
     <>
-      <h1>
-        Fodase
-      </h1>
+      <HeroSection/>
     </>
   )
 }
