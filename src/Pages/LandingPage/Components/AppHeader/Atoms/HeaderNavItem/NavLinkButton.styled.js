@@ -5,11 +5,11 @@ export const LinkButtonContainer = styled.button`
     color: #fff;
     background-color: transparent;
 
-    font-size: 15px;
+    font-size: 15.8px;
     border: none;
     color: #fff;
     font-weight: 900;
-    opacity: 0.7;
+    opacity: 0.67;
 
     &:hover{
         cursor: pointer;

@@ -5,6 +5,7 @@ export function LandingPage(){
   return(
     <>
       <AppHeader/>
+      <HeroSection/>
     </>
   )
 }

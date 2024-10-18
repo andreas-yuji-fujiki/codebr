@@ -8,6 +8,7 @@ export const CarouselContainer = styled.div`
   justify-content: center;
 
   overflow: hidden;
+  padding: 0 34px;
 `;
 
 export const CarouselItem = styled.div`

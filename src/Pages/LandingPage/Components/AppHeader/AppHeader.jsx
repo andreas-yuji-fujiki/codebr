@@ -5,14 +5,16 @@ import { HeaderNav } from "./Molecules/HeaderNav/HeaderNav"
 import { AccountSection } from "./Molecules/AccountSection/AccountSection"
 
 // styles
-import { AppHeaderContainer } from "./AppHeader.styled"
+import { AppHeaderContainer, AppHeaderBox } from "./AppHeader.styled"
 export const AppHeader = () => {
     return(
-        <AppHeaderContainer>
-            <MobileHeaderNav/>
-            <LogoTitle/>
-            <HeaderNav/>
-            <AccountSection/>
-        </AppHeaderContainer>
+        <AppHeaderBox>
+            <AppHeaderContainer>
+                <MobileHeaderNav/>
+                <LogoTitle/>
+                <HeaderNav/>
+                <AccountSection/>
+            </AppHeaderContainer>
+        </AppHeaderBox>
     )
 }

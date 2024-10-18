@@ -1,19 +1,21 @@
 import styled from "styled-components";
 
-export const AppHeaderContainer = styled.div`
-    border-top: none;
+export const AppHeaderBox = styled.header`
+    background-color: #0e1015;
+    z-index: 1900;
+    padding: 27px 10px 20px 10px;
+    width: 100%;
 
     position: sticky;
     top: 0;
     left: 0;
-    background-color: #0e1015;
-    z-index: 900;
+`
 
+export const AppHeaderContainer = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    padding: 32px 10px 13px 10px;
     max-width: 1440px;
     margin: 0 auto;
 

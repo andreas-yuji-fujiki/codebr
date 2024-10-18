@@ -13,7 +13,7 @@ export const LogoTitleContainer = styled.h1`
 `;
 
 export const LogoImage = styled.img`
-    width: 155px;
+    width: 190px;
 
     @media(max-width: 660px){
         width: 135px;
