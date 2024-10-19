@@ -39,7 +39,7 @@ export const MobileHeaderNav = () => {
             <MobileMenuBar className={activeClass}>
                 <MobileNavButtons className={activeClass}>
                     <LinkButton 
-                    text={'+ Comece Agora'}
+                    text={<><PiStarThin className="icon"/> Comece Agora</>}
                     isActive={activeItem === 'comeceAgora'} // Compara para definir se é ativo
                     onClick={() => handleMobileActive('comeceAgora')} // Passa o identificador para a função de clique
                 />
