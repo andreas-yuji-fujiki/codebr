@@ -13,7 +13,7 @@ export const HeroSection = () => {
   return (
     <Section>
       <HeroSectionContaier>
-        {/* <MainCallToAction/> */}
+        <MainCallToAction/>
       </HeroSectionContaier>
     </Section>
   );
