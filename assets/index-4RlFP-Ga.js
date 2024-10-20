@@ -242,12 +242,12 @@ Error generating stack: `+o.message+`
     display: flex;
     gap: 11px;
 `,dh=()=>P.jsxs(fh,{children:[P.jsx(ah,{}),P.jsx(ch,{})]}),ph=re.header`
-    background-color: #0e1015;
+    /* background-color: #0e1015; */
     z-index: 1900;
     padding: 27px 10px 20px 10px;
     width: 100%;
 
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
 `,hh=re.div`
@@ -310,7 +310,7 @@ Error generating stack: `+o.message+`
     gap: 50px;
 `,kh=()=>P.jsxs(xh,{children:[P.jsx(gh,{}),P.jsx(Sh,{})]}),Eh=re.section`
     border-top: 2px solid transparent;
-    height: 70vh;
+    height: 78vh;
 
     background-image: url('hero-section-bg.webp');
     background-position: center;
