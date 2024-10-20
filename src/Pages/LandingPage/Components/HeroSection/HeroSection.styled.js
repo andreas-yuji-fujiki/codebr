@@ -3,7 +3,7 @@ import styled from "styled-components";
 // section
 export const Section = styled.section`
     border-top: 2px solid transparent;
-    height: 70vh;
+    height: 78vh;
 
     background-image: url('hero-section-bg.webp');
     background-position: center;
