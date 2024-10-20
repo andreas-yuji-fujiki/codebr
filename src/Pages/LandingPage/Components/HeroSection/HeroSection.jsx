@@ -1,8 +1,6 @@
 // components
 import { MainCallToAction } from './Molecules/MainCallToAction/MainCallToAction';
 
-import TemplatesCarousel from './Atoms/TemplatesCarousel/TemplatesCarousel';
-
 // styled components
 import { 
   HeroSectionContaier,

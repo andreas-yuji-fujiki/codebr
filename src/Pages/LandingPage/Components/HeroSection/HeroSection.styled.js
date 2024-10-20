@@ -5,12 +5,12 @@ export const Section = styled.section`
     border-top: 2px solid transparent;
     height: 70vh;
 
-    /* background-image: url('hero-section-bg.webp');
+    background-image: url('hero-section-bg.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    opacity: 1; */
+    opacity: 1;
 `
 
 // container
