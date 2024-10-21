@@ -7,4 +7,10 @@ export const MainCallToActionContainer = styled.div`
     text-align: center;
     flex-direction: column;
     gap: 50px;
+    position: relative;
+    z-index: 900;
+
+    @media (max-width: 730px){
+        gap: 35px;
+    }
 `

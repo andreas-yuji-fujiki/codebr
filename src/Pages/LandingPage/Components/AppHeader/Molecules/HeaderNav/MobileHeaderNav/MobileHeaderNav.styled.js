@@ -4,8 +4,8 @@ export const MobileNavContainer = styled.div`
     display: none;
 
     color: #fff;
-    padding: 5px 26px 5px 0;
-    font-size: 22px;
+    padding: 5px 32px 5px 6px;
+    font-size: 22px;;
 
     .icon{
         opacity: 0.8;
@@ -23,12 +23,12 @@ export const MobileNavContainer = styled.div`
 
     @media(max-width: 660px){
         font-size: 20px;
-        padding: 5px 22px 5px 0;
+        padding: 5px 24px 5px 6px;
     }
     @media(max-width: 380px){
         font-size: 18px;
         margin-bottom: -3.4px;
-        padding: 0 15px 0 0;
+        padding: 0 19px 0 10px;
     }
 `
 
@@ -41,10 +41,8 @@ export const MobileMenuBar = styled.div`
     background-color: #0e1015;
 
     position: fixed;
-    left: 0.5vw;
-    top: 1vh;
-    
-    outline: 1px solid #f178f7;
+    left: 0;
+    top: 0;
     
     &.active{
         visibility: visible;
