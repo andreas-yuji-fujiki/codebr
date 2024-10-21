@@ -6,7 +6,7 @@ export const Section = styled.section`
     overflow: hidden;
     background-color: #000;
 
-    .space {
+    /* .space {
         background: #000 center / 320px 250px round;
         
         bottom: 0;
@@ -117,7 +117,7 @@ export const Section = styled.section`
             white, 
             rgba(255, 255, 255, 0)
         );
-    }
+    } */
 
     @keyframes space {
         40% {

@@ -31,6 +31,19 @@ export const MainCallButton = styled.button`
     }
 
     @media (max-width: 660px){
-        font-size: 3.1vw;
+        font-size: 18.5px;
+    }
+    @media (max-width: 508px){
+        width: 70%;
+    }
+    @media (max-width: 440px){
+        font-size: 17px;
+    }
+    @media (max-width: 390px){
+        font-size: 15px;
+    }
+    @media (max-width: 335px){
+        font-size: 14px;
+        padding: 0.9rem 2rem;
     }
 `
