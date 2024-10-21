@@ -30,11 +30,14 @@ export const MainCallButton = styled.button`
         color: rgb(4, 4, 38);
     }
 
+    @media (max-width: 730px){
+        width: 70%;
+    }
     @media (max-width: 660px){
         font-size: 18.5px;
     }
-    @media (max-width: 508px){
-        width: 70%;
+    @media (max-width: 580px){
+        width: 100%;
     }
     @media (max-width: 440px){
         font-size: 17px;

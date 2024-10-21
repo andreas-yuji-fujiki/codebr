@@ -20,12 +20,9 @@ export const MainCallToActionContainer = styled.div`
         gap: 25px;
     }
     @media (max-width: 508px){
-        gap: 20px;
+        gap: 22px;
     }
-    @media (max-width: 390px){
-        gap: 15px;
-    }
-    @media (max-width: 340px){
-        gap: 12px;
+    @media (max-width: 330px){
+        gap: 18px;
     }
 `

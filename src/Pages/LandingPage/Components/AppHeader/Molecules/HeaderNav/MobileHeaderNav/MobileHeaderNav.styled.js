@@ -25,10 +25,19 @@ export const MobileNavContainer = styled.div`
         font-size: 20px;
         padding: 5px 24px 5px 6px;
     }
+    @media(max-width: 428px){
+        padding: 0 22.2px 0 12.2px;
+    }
+    @media(max-width: 414px){
+        padding: 0 20px 0 12.2px;
+    }
     @media(max-width: 380px){
         font-size: 18px;
         margin-bottom: -3.4px;
         padding: 0 19px 0 10px;
+    }
+    @media(max-width: 365px){
+        padding: 0 20px 0 10.2px;
     }
 `
 

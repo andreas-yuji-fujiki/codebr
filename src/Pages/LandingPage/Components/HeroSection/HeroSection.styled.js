@@ -2,11 +2,11 @@ import styled from "styled-components";
 
 // section
 export const Section = styled.section`
-    height: 90vh;
+    height: 650px;
     overflow: hidden;
     background-color: #000;
 
-    /* .space {
+    .space {
         background: #000 center / 320px 250px round;
         
         bottom: 0;
@@ -117,7 +117,7 @@ export const Section = styled.section`
             white, 
             rgba(255, 255, 255, 0)
         );
-    } */
+    }
 
     @keyframes space {
         40% {
@@ -139,10 +139,33 @@ export const Section = styled.section`
 export const HeroSectionContaier = styled.div`
     max-width: 1340px;
     
+    
     margin: 0 auto;
 
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
+
+    @media (max-width: 730px){
+        margin-top: -40px;
+    }
+    @media (max-width: 660px){
+        margin-top: -65px;
+    }
+    @media (max-width: 580px){
+        margin-top: -80px;
+    }
+    @media (max-width: 508px){
+        margin-top: -95px;
+    }
+    @media (max-width: 440px){
+        margin-top: -110px;
+    }
+    @media (max-width: 390px){
+        margin-top: -120px;
+    }
+    @media (max-width: 380px){
+        margin-top: -135px;
+    }
 `

@@ -27,13 +27,18 @@ export const CallToActionTitleContainer = styled.h2`
     }
     @media (max-width: 580px){
         font-size: 40px;
+        text-align: justify;
 
         .desktop{
             display: none;
         }
-
         .mobile{
             display: inline-block;
+        }
+        .mobile-decoration{
+            text-decoration: underline;
+            text-underline-offset: 5px;
+            text-decoration-color: #007bff;
         }
     }
     @media (max-width: 508px){
