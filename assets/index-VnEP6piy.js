@@ -396,7 +396,7 @@ Error generating stack: `+l.message+`
 `,kh=()=>C.jsx(C.Fragment,{children:C.jsxs(Sh,{children:[C.jsx(gh,{}),C.jsx(xh,{})]})}),Eh=Z.section`
     position: relative;
     overflow: hidden;
-    padding: 200px 0 120px 0;
+    padding: 200px 0;
 
     width: 100%;
     
