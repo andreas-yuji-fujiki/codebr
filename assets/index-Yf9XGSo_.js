@@ -413,7 +413,7 @@ Error generating stack: `+l.message+`
         padding: 135px 0 70px 0;
     }
     @media (max-width: 450px){
-        padding: 125px 0 82px 0;
+        padding: 125px 0 78px 0;
     }
 
     .stars1 {
@@ -524,7 +524,7 @@ Error generating stack: `+l.message+`
     @media (max-width: 768px){
         img{
             border: none;
-            width: 91%;
+            width: 93%;
         }
     }
 `,zh=()=>C.jsx(jh,{children:C.jsxs("div",{className:"brutalist-container",children:[C.jsx("input",{placeholder:"seuprojeto.code.com.br",className:"brutalist-input smooth-type",type:"text"}),C.jsx("label",{className:"brutalist-label",children:"domínio code.com.br grátis!"})]})}),jh=Z.div`
