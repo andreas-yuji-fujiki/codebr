@@ -295,7 +295,7 @@ Error generating stack: `+l.message+`
     }
     @media (max-width: 580px){
         font-size: 40px;
-        text-align: justify;
+        text-align: left;
 
         .desktop{
             display: none;
@@ -376,7 +376,7 @@ Error generating stack: `+l.message+`
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 50px;
+    gap: 30px;
 
     @media (max-width: 875px){
         gap: 35px;
@@ -396,7 +396,7 @@ Error generating stack: `+l.message+`
 `,kh=()=>C.jsx(C.Fragment,{children:C.jsxs(Sh,{children:[C.jsx(gh,{}),C.jsx(xh,{})]})}),Eh=Z.section`
     position: relative;
     overflow: hidden;
-    padding: 200px 0;
+    padding: 200px 0 110px 0;
 
     width: 100%;
     
@@ -469,14 +469,21 @@ Error generating stack: `+l.message+`
         }
     }
 
-    @media (max-width: 720px){
-        padding: 155px 0;
+    padding: 200px 0 110px 0;
+    @media (max-width: 875px){
+        padding: 155px 0 90px 0;
     }
-    @media (max-width: 440px){
-        padding: 140px 0;
+    @media (max-width: 768px){
+        padding: 155px 0 82px 0;
     }
-    @media (max-width: 340px){
-        padding: 115px 0;
+    @media (max-width: 730px){
+        padding: 155px 0 90px 0;
+    }
+    @media (max-width: 660px){
+        padding: 135px 0 70px 0;
+    }
+    @media (max-width: 390px){
+        padding: 135px 0 65px 0;
     }
 `,Ch=Z.div`
     max-width: 1340px;
