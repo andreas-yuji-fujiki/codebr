@@ -1,12 +1,24 @@
 import styled from "styled-components";
 
 // section
-export const Section = styled.section`
+export const MainSection = styled.section`
     position: relative;
-    
-    height: 600px;
+    z-index: 2;
     overflow: hidden;
+    padding: 200px 0 90px 0;
+    width: 100%;
+    
     background-color: #000;
+
+    .stars1 {
+        animation: space 10s alternate infinite;
+    }
+    .stars2 {
+        animation: space 20s alternate infinite;
+    }
+    .stars3 {
+        animation: space 30s ease-in-out infinite;
+    }
 
     .space {
         background: #000 center / 320px 250px round;
@@ -16,78 +28,7 @@ export const Section = styled.section`
         position: absolute;
         right: 0;
         top: 0;
-    }
 
-    .stars1 {
-        animation: space 10s alternate infinite;
-        background-image:
-            radial-gradient(
-            1px 1px at 25px 5px, 
-            white, 
-            rgba(255, 255, 255, 0)
-            ),
-            radial-gradient(
-            1px 1px at 50px 25px, 
-            white, 
-            rgba(255, 255, 255, 0)
-            ),
-            radial-gradient(
-            1px 1px at 125px 20px, 
-            white, 
-            rgba(255, 255, 255, 0)
-            ),
-            radial-gradient(
-            1.5px 1.5px at 50px 75px, 
-            white, 
-            rgba(255, 255, 255, 0)
-            ),
-            radial-gradient(
-            2px 2px at 15px 125px, 
-            white, 
-            rgba(255, 255, 255, 0)
-            ),
-            radial-gradient(
-            2.5px 2.5px at 110px 80px, 
-            white, 
-            rgba(255, 255, 255, 0)
-        );
-    }
-    .stars2 {
-        animation: space 20s alternate infinite;
-        background-image:
-            radial-gradient(
-            1px 1px at 75px 125px, 
-            white, 
-            rgba(255, 255, 255, 0)
-            ),
-            radial-gradient(
-            1px 1px at 100px 75px, 
-            white, 
-            rgba(255, 255, 255, 0)
-            ),
-            radial-gradient(
-            1.5px 1.5px at 199px 100px, 
-            white, 
-            rgba(255, 255, 255, 0)
-            ),
-            radial-gradient(
-            2px 2px at 20px 50px, 
-            white, 
-            rgba(255, 255, 255, 0)
-            ),
-            radial-gradient(
-            2.5px 2.5px at 100px 5px, 
-            white, 
-            rgba(255, 255, 255, 0)
-            ),
-            radial-gradient(
-            2.5px 2.5px at 5px 5px, 
-            white, 
-            rgba(255, 255, 255, 0)
-        );
-    }
-    .stars3 {
-        animation: space 30s ease-in-out infinite;
         background-image:
             radial-gradient(
             1px 1px at 10px 10px, 
@@ -137,14 +78,6 @@ export const Section = styled.section`
     }
 `
 
-// divider
-export const SectionDivider = styled.div`
-    margin-top: -120px;
-    height: 200px;
-    background-size: cover;
-    background-image: url('hero-waves.svg');
-`
-
 // container
 export const HeroSectionContaier = styled.div`
     max-width: 1340px;
@@ -157,27 +90,16 @@ export const HeroSectionContaier = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+`
 
-    @media (max-width: 730px){
-        margin-top: -40px;
-    }
-    @media (max-width: 660px){
-        margin-top: -65px;
-    }
-    @media (max-width: 580px){
-        margin-top: -80px;
-    }
-    @media (max-width: 508px){
-        margin-top: -95px;
-    }
-    @media (max-width: 440px){
-        margin-top: -110px;
-    }
-    @media (max-width: 390px){
-        margin-top: -120px;
-    }
-    @media (max-width: 380px){
-        margin-top: -135px;
-    }
+// divider
+export const SectionDivider = styled.div`
+    width: 100%;
+    height: 185px;
+    position: absolute;
+    z-index: -1;
+
+    background-position: top;
+    background-size: cover;
+    background-image: url('hero-waves.svg');
 `

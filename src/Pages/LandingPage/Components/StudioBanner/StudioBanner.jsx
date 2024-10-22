@@ -1,5 +1,5 @@
 import { BannerContainer } from "./StudioBanner.styled"
-import UrlInput from "../../Atoms/UrlInput/UrlInput"
+import UrlInput from "./UrlInput/UrlInput"
 
 export const StudioBannerComponent = () => {
     return(
