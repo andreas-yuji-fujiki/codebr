@@ -6,11 +6,13 @@ export const BannerContainer = styled.div`
     
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: flex-start;
     opacity: 0.75;
 
     img{
+        position: relative;
+        z-index: -1;
         border: 2px solid #007bff;
         margin: 0 auto;
         width: 85%;

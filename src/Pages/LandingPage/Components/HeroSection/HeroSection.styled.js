@@ -3,9 +3,8 @@ import styled from "styled-components";
 // section
 export const MainSection = styled.section`
     position: relative;
-    z-index: 2;
     overflow: hidden;
-    padding: 200px 0 115px 0;
+    padding: 200px 0 120px 0;
 
     width: 100%;
     
@@ -80,11 +79,15 @@ export const MainSection = styled.section`
 
     @media (max-width: 720px){
         padding-top: 155px;
-        padding-bottom: 75px;
+        padding-bottom: 115px;
     }
     @media (max-width: 440px){
         padding-top: 140px;
-        padding-bottom: 65px;
+        padding-bottom: 92px;
+    }
+    @media (max-width: 340px){
+        padding-top: 115px;
+        padding-bottom: 80px;
     }
 `
 
