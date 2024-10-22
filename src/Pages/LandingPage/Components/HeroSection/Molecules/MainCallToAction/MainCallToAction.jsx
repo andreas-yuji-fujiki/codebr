@@ -7,9 +7,11 @@ import { MainCallToActionContainer } from './MainCallToAction.styled'
 
 export const MainCallToAction = () => {
     return(
-        <MainCallToActionContainer>
-            <CallToActionTitle/>
-            <MainButton/>
-        </MainCallToActionContainer>
+        <>
+            <MainCallToActionContainer>
+                <CallToActionTitle/>
+                <MainButton/>
+            </MainCallToActionContainer>
+        </>
     )
 }

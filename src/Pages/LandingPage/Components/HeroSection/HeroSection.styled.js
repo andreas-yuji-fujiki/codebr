@@ -2,7 +2,9 @@ import styled from "styled-components";
 
 // section
 export const Section = styled.section`
-    height: 650px;
+    position: relative;
+    
+    height: 600px;
     overflow: hidden;
     background-color: #000;
 
@@ -135,10 +137,20 @@ export const Section = styled.section`
     }
 `
 
+// divider
+export const SectionDivider = styled.div`
+    margin-top: -120px;
+    height: 200px;
+    background-size: cover;
+    background-image: url('hero-waves.svg');
+`
+
 // container
 export const HeroSectionContaier = styled.div`
     max-width: 1340px;
-    
+
+    display: flex;
+    flex-direction: column;
     
     margin: 0 auto;
 
