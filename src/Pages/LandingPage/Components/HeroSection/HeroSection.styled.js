@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const MainSection = styled.section`
     position: relative;
     overflow: hidden;
-    padding: 200px 0;
+    padding: 200px 0 110px 0;
 
     width: 100%;
     
@@ -77,14 +77,21 @@ export const MainSection = styled.section`
         }
     }
 
-    @media (max-width: 720px){
-        padding: 155px 0;
+    padding: 200px 0 110px 0;
+    @media (max-width: 875px){
+        padding: 155px 0 90px 0;
     }
-    @media (max-width: 440px){
-        padding: 140px 0;
+    @media (max-width: 768px){
+        padding: 155px 0 82px 0;
     }
-    @media (max-width: 340px){
-        padding: 115px 0;
+    @media (max-width: 730px){
+        padding: 155px 0 90px 0;
+    }
+    @media (max-width: 660px){
+        padding: 135px 0 70px 0;
+    }
+    @media (max-width: 390px){
+        padding: 135px 0 65px 0;
     }
 `
 

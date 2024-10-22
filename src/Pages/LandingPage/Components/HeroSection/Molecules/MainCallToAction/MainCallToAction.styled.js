@@ -6,7 +6,7 @@ export const MainCallToActionContainer = styled.div`
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 50px;
+    gap: 30px;
 
     @media (max-width: 875px){
         gap: 35px;

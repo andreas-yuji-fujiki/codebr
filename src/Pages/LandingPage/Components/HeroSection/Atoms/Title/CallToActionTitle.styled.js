@@ -27,7 +27,7 @@ export const CallToActionTitleContainer = styled.h2`
     }
     @media (max-width: 580px){
         font-size: 40px;
-        text-align: justify;
+        text-align: left;
 
         .desktop{
             display: none;
