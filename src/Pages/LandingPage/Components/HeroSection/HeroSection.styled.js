@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const MainSection = styled.section`
     position: relative;
     overflow: hidden;
-    padding: 200px 0 120px 0;
+    padding: 200px 0;
 
     width: 100%;
     
