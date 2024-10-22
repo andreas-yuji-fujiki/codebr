@@ -524,7 +524,7 @@ Error generating stack: `+l.message+`
     @media (max-width: 768px){
         img{
             border: none;
-            width: 89%;
+            width: 93%;
         }
     }
 `,zh=()=>C.jsx(jh,{children:C.jsxs("div",{className:"brutalist-container",children:[C.jsx("input",{placeholder:"seuprojeto.code.com.br",className:"brutalist-input smooth-type",type:"text"}),C.jsx("label",{className:"brutalist-label",children:"domínio code.com.br grátis!"})]})}),jh=Z.div`
