@@ -7,8 +7,22 @@ export const MainSection = styled.section`
     padding: 200px 0 110px 0;
 
     width: 100%;
-    
     background-color: #000;
+
+    padding: 200px 0 110px 0;
+    
+    @media (max-width: 890px){
+        padding: 155px 0 110px 0;
+    }
+    @media (max-width: 768px){
+        padding: 155px 0 96px 0;
+    }
+    @media (max-width: 660px){
+        padding: 135px 0 70px 0;
+    }
+    @media (max-width: 450px){
+        padding: 112px 0 72px 0;
+    }
 
     .stars1 {
         animation: space 10s alternate infinite;
@@ -75,23 +89,6 @@ export const MainSection = styled.section`
         100% {
             transform: rotate(360deg);
         }
-    }
-
-    padding: 200px 0 110px 0;
-    @media (max-width: 875px){
-        padding: 155px 0 90px 0;
-    }
-    @media (max-width: 768px){
-        padding: 155px 0 82px 0;
-    }
-    @media (max-width: 730px){
-        padding: 155px 0 90px 0;
-    }
-    @media (max-width: 660px){
-        padding: 135px 0 70px 0;
-    }
-    @media (max-width: 390px){
-        padding: 135px 0 65px 0;
     }
 `
 
