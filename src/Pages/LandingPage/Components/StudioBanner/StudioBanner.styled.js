@@ -17,20 +17,10 @@ export const BannerContainer = styled.div`
         margin: 0 auto;
         width: 85%;
     }
-
-    @media (max-width: 1700px){
-        img{
-            width: 95%;
-        }
-    }
-    @media (max-width: 1024px){
-        img{
-            width: 97%;
-        }
-    }
     @media (max-width: 768px){
         img{
             border: none;
+            width: 89%;
         }
     }
 `
