@@ -470,16 +470,13 @@ Error generating stack: `+l.message+`
     }
 
     @media (max-width: 720px){
-        padding-top: 155px;
-        padding-bottom: 115px;
+        padding: 155px 0;
     }
     @media (max-width: 440px){
-        padding-top: 140px;
-        padding-bottom: 92px;
+        padding: 140px 0;
     }
     @media (max-width: 340px){
-        padding-top: 115px;
-        padding-bottom: 80px;
+        padding: 115px 0;
     }
 `,Ch=Z.div`
     max-width: 1340px;
