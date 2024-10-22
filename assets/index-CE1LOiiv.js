@@ -413,7 +413,7 @@ Error generating stack: `+l.message+`
         padding: 135px 0 70px 0;
     }
     @media (max-width: 450px){
-        padding: 100px 0 85px 0;
+        padding: 115px 0 100px 0;
     }
 
     .stars1 {
