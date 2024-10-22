@@ -21,7 +21,7 @@ export const MainSection = styled.section`
         padding: 135px 0 70px 0;
     }
     @media (max-width: 450px){
-        padding: 112px 0 72px 0;
+        padding: 100px 0 85px 0;
     }
 
     .stars1 {
