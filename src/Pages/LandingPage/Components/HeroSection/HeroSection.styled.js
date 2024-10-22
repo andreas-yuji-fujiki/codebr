@@ -5,7 +5,8 @@ export const MainSection = styled.section`
     position: relative;
     z-index: 2;
     overflow: hidden;
-    padding: 200px 0 90px 0;
+    padding: 200px 0 63px 0;
+
     width: 100%;
     
     background-color: #000;
@@ -94,12 +95,13 @@ export const HeroSectionContaier = styled.div`
 
 // divider
 export const SectionDivider = styled.div`
-    width: 100%;
+    width: 100vw;
     height: 185px;
     position: absolute;
     z-index: -1;
 
     background-position: top;
     background-size: cover;
+    background-repeat: no-repeat;
     background-image: url('hero-waves.svg');
 `
