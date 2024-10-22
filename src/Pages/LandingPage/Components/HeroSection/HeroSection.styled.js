@@ -5,7 +5,7 @@ export const MainSection = styled.section`
     position: relative;
     z-index: 2;
     overflow: hidden;
-    padding: 200px 0 90px 0;
+    padding: 200px 0 115px 0;
 
     width: 100%;
     
@@ -76,6 +76,15 @@ export const MainSection = styled.section`
         100% {
             transform: rotate(360deg);
         }
+    }
+
+    @media (max-width: 720px){
+        padding-top: 155px;
+        padding-bottom: 75px;
+    }
+    @media (max-width: 440px){
+        padding-top: 140px;
+        padding-bottom: 65px;
     }
 `
 
