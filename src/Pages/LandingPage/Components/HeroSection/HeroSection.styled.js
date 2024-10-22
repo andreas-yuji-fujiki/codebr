@@ -5,7 +5,7 @@ export const MainSection = styled.section`
     position: relative;
     z-index: 2;
     overflow: hidden;
-    padding: 200px 0 63px 0;
+    padding: 200px 0 90px 0;
 
     width: 100%;
     
@@ -96,7 +96,8 @@ export const HeroSectionContaier = styled.div`
 // divider
 export const SectionDivider = styled.div`
     width: 100vw;
-    height: 185px;
+    height: 600px;
+    border-top: 135px solid #000;
     position: absolute;
     z-index: -1;
 
