@@ -272,6 +272,7 @@ Error generating stack: `+l.message+`
     color: #fff;
     font-size: 55px;
     letter-spacing: 4px;
+    line-height: 77px;
     position: relative;
 
     .mobile{
@@ -321,8 +322,9 @@ Error generating stack: `+l.message+`
     @media (max-width: 335px){
         font-size: 20px;
     }
-`,gh=()=>C.jsxs(vh,{children:["Levante seu projeto ",C.jsx("br",{className:"mobile"})," em ",C.jsx("br",{className:"desktop"}),C.jsx("span",{className:"mobile-decoration",children:"um clique."})," ",C.jsx("span",{className:"desktop",children:"Não é exagero!"})]}),yh=Z.button`
+`,gh=()=>C.jsxs(vh,{children:["Construa seu projeto ",C.jsx("br",{className:"mobile"})," em ",C.jsx("br",{className:"desktop"}),C.jsx("span",{className:"mobile-decoration",children:"três cliques."})," ",C.jsx("span",{className:"desktop",children:"Não é exagero!"})]}),yh=Z.button`
     font-size: 1.4rem;
+    letter-spacing: 3.5px;
     padding: 1rem 2.5rem;
     width: 50%;
     display: flex;
@@ -370,7 +372,7 @@ Error generating stack: `+l.message+`
         font-size: 14px;
         padding: 0.9rem 2rem;
     }
-`;function wh(e){return ln({tag:"svg",attr:{viewBox:"0 0 512 512"},child:[{tag:"path",attr:{d:"M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"},child:[]}]})(e)}const xh=()=>C.jsxs(yh,{children:["Vamo lá?! ",C.jsx(wh,{})]}),Sh=Z.div`
+`;function wh(e){return ln({tag:"svg",attr:{viewBox:"0 0 512 512"},child:[{tag:"path",attr:{d:"M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"},child:[]}]})(e)}const xh=()=>C.jsxs(yh,{children:["Teste grátis! ",C.jsx(wh,{})]}),Sh=Z.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
