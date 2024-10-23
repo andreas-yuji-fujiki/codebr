@@ -59,19 +59,9 @@ const StyledWrapper = styled.div`
   }
 
   // responsivity
-  @media (max-width: 1700px){
-    .brutalist-container{
-      right: 2.5%;
-    }
-  }
-  @media (max-width: 1024px){
-    .brutalist-container{
-      right: 2.2%;
-    }
-  }
   @media (max-width: 1145px){
     .brutalist-container{
-      right: -2.2%;
+      right: 43px;
     }
     .brutalist-input{
       font-size: 15px;
@@ -83,7 +73,11 @@ const StyledWrapper = styled.div`
       top: -27px;
     }
   }
-
+  @media (max-width: 1145px){
+    .brutalist-container{
+      right: 3%;
+    }
+  }
   @media (max-width: 768px){
     .brutalist-container{
       display: none;

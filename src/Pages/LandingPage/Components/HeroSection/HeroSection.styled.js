@@ -11,17 +11,20 @@ export const MainSection = styled.section`
 
     padding: 200px 0 110px 0;
     
-    @media (max-width: 890px){
-        padding: 155px 0 110px 0;
+    @media (max-width: 875px){
+        padding: 155px 0 100px 0;
     }
     @media (max-width: 768px){
-        padding: 155px 0 96px 0;
+        padding: 155px 0 80px 0;
     }
     @media (max-width: 660px){
         padding: 135px 0 70px 0;
     }
     @media (max-width: 450px){
-        padding: 125px 0 82px 0;
+        padding: 130px 0 63px 0;
+    }
+    @media (max-width: 335px){
+        padding: 130px 0 55px 0;
     }
 
     .stars1 {

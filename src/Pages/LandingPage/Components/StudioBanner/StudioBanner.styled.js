@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const BannerContainer = styled.div`
-    width: 100%;
+    width: 85%;
     margin: 0 auto;
     
     display: flex;
@@ -15,12 +15,15 @@ export const BannerContainer = styled.div`
         z-index: -1;
         border: 2px solid #007bff;
         margin: 0 auto;
-        width: 85%;
+        width: 100%;
     }
     @media (max-width: 768px){
+        width: 93%;
         img{
             border: none;
-            width: 91%;
         }
+    }
+    @media (max-width: 335px){
+        width: 90%;
     }
 `
