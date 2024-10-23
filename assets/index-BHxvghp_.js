@@ -321,7 +321,7 @@ Error generating stack: `+l.message+`
     @media (max-width: 335px){
         font-size: 20px;
     }
-`,gh=()=>C.jsxs(vh,{children:["construa seu projeto ",C.jsx("br",{className:"mobile"})," em ",C.jsx("br",{className:"desktop"}),C.jsx("span",{className:"mobile-decoration",children:"três cliques."})," ",C.jsx("span",{className:"desktop",children:"Não é exagero!"})]}),yh=Z.button`
+`,gh=()=>C.jsxs(vh,{children:["Construa seu projeto ",C.jsx("br",{className:"mobile"})," em ",C.jsx("br",{className:"desktop"}),C.jsx("span",{className:"mobile-decoration",children:"três cliques."})," ",C.jsx("span",{className:"desktop",children:"Não é exagero!"})]}),yh=Z.button`
     font-size: 1.4rem;
     letter-spacing: 3.5px;
     padding: 1rem 2.5rem;
