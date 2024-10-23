@@ -4,7 +4,6 @@ export const CallToActionTitleContainer = styled.h2`
     color: #fff;
     font-size: 55px;
     letter-spacing: 4px;
-    line-height: 77px;
     position: relative;
 
     .mobile{
