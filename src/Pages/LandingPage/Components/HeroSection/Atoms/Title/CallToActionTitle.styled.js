@@ -16,16 +16,22 @@ export const CallToActionTitleContainer = styled.h2`
         text-decoration-color: #007bff;
     }
 
+    @media (max-width: 940px){
+        font-size: 48px;
+    }
     @media (max-width: 875px){
         font-size: 46px;
     }
-    @media (max-width: 730px){
+    @media (max-width: 804px){
         font-size: 40px;
+    }
+    @media (max-width: 712px){
+        font-size: 37px;
     }
     @media (max-width: 660px){
         font-size: 35px;
     }
-    @media (max-width: 580px){
+    @media (max-width: 630px){
         font-size: 40px;
         text-align: left;
 
@@ -41,16 +47,25 @@ export const CallToActionTitleContainer = styled.h2`
             text-decoration-color: #007bff;
         }
     }
-    @media (max-width: 508px){
-        font-size: 35px;
+    @media (max-width: 540px){
+        font-size: 36.6px;
     }
-    @media (max-width: 440px){
+    @media (max-width: 490px){
+        font-size: 33px;
+    }
+    @media (max-width: 456px){
         font-size: 30px;
-    }
-    @media (max-width: 390px){
-        font-size: 25px;
     } 
-    @media (max-width: 335px){
+    @media (max-width: 420px){
+        font-size: 28px;
+    }
+    @media (max-width: 400px){
+        font-size: 25px;
+    }
+    @media (max-width: 375px){
+        font-size: 23px;
+    }
+    @media (max-width: 360px){
         font-size: 20px;
     }
 `

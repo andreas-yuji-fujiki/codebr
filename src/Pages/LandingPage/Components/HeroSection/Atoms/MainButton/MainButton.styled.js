@@ -31,13 +31,13 @@ export const MainCallButton = styled.button`
         color: rgb(4, 4, 38);
     }
 
-    @media (max-width: 730px){
+    @media (max-width: 804px){
         width: 70%;
     }
     @media (max-width: 660px){
         font-size: 18.5px;
     }
-    @media (max-width: 580px){
+    @media (max-width: 630px){
         width: 100%;
     }
     @media (max-width: 440px){
