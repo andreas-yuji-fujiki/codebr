@@ -403,17 +403,20 @@ Error generating stack: `+l.message+`
 
     padding: 200px 0 110px 0;
     
-    @media (max-width: 890px){
-        padding: 155px 0 110px 0;
+    @media (max-width: 875px){
+        padding: 155px 0 100px 0;
     }
     @media (max-width: 768px){
-        padding: 155px 0 96px 0;
+        padding: 155px 0 80px 0;
     }
     @media (max-width: 660px){
         padding: 135px 0 70px 0;
     }
     @media (max-width: 450px){
-        padding: 118px 0 93px 0;
+        padding: 130px 0 63px 0;
+    }
+    @media (max-width: 335px){
+        padding: 130px 0 55px 0;
     }
 
     .stars1 {
@@ -505,7 +508,7 @@ Error generating stack: `+l.message+`
     background-repeat: no-repeat;
     background-image: url('hero-waves.svg');
 `,Ph=()=>C.jsxs(C.Fragment,{children:[C.jsxs(Eh,{children:[C.jsx("div",{className:"space stars1"}),C.jsx("div",{className:"space stars2"}),C.jsx("div",{className:"space stars3"}),C.jsx(Ch,{children:C.jsx(kh,{})})]}),C.jsx(_h,{})]}),Nh=Z.div`
-    width: 100%;
+    width: 85%;
     margin: 0 auto;
     
     display: flex;
@@ -519,13 +522,16 @@ Error generating stack: `+l.message+`
         z-index: -1;
         border: 2px solid #007bff;
         margin: 0 auto;
-        width: 85%;
+        width: 100%;
     }
     @media (max-width: 768px){
+        width: 93%;
         img{
             border: none;
-            width: 93%;
         }
+    }
+    @media (max-width: 335px){
+        width: 90%;
     }
 `,zh=()=>C.jsx(jh,{children:C.jsxs("div",{className:"brutalist-container",children:[C.jsx("input",{placeholder:"seuprojeto.code.com.br",className:"brutalist-input smooth-type",type:"text"}),C.jsx("label",{className:"brutalist-label",children:"domínio code.com.br grátis!"})]})}),jh=Z.div`
     .brutalist-container {
@@ -571,19 +577,9 @@ Error generating stack: `+l.message+`
   }
 
   // responsivity
-  @media (max-width: 1700px){
-    .brutalist-container{
-      right: 2.5%;
-    }
-  }
-  @media (max-width: 1024px){
-    .brutalist-container{
-      right: 2.2%;
-    }
-  }
   @media (max-width: 1145px){
     .brutalist-container{
-      right: -2.2%;
+      right: 43px;
     }
     .brutalist-input{
       font-size: 15px;
@@ -595,7 +591,11 @@ Error generating stack: `+l.message+`
       top: -27px;
     }
   }
-
+  @media (max-width: 1145px){
+    .brutalist-container{
+      right: 3%;
+    }
+  }
   @media (max-width: 768px){
     .brutalist-container{
       display: none;
