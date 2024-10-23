@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const MainCallButton = styled.button`
     font-size: 1.4rem;
+    letter-spacing: 3.5px;
     padding: 1rem 2.5rem;
     width: 50%;
     display: flex;
