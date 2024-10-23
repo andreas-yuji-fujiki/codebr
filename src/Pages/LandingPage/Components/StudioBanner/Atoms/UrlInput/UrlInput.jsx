@@ -18,6 +18,7 @@ const UrlInput = () => {
 const StyledWrapper = styled.div`
     .brutalist-container {
       position: absolute;
+      z-index: 1;
       margin-top: -40px;
       right: 7%;
 
