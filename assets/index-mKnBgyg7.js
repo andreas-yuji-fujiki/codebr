@@ -618,7 +618,7 @@ Error generating stack: `+l.message+`
       display: none;
     }
   }
-`,Lh=()=>C.jsx(Th,{children:C.jsx("img",{src:"/mobile-code-span.png",alt:""})}),Th=X.div`
+`,Lh=()=>C.jsx(Th,{children:C.jsx("img",{src:"mobile-code-span.png",alt:""})}),Th=X.div`
     display: none;
     position: absolute;
     z-index: 99999999;
