@@ -621,12 +621,12 @@ Error generating stack: `+l.message+`
 `,Lh=()=>C.jsx(Th,{children:C.jsx("img",{src:"/mobile-code-span.png",alt:""})}),Th=X.div`
     display: none;
     position: absolute;
-    z-index: 999;
+    z-index: 99999999;
     width: 52.7%;
     padding: 15px;
     color: #fff;
 
     @media (max-width: 768px){
-        display: flex;
+        display: inline;
     }
 `,Oh=()=>C.jsxs(zh,{children:[C.jsx(Nh,{}),C.jsx(Lh,{}),C.jsx("img",{src:"studio-img.png",alt:"Code Studio"})]});function Rh(){return C.jsxs(C.Fragment,{children:[C.jsx(mh,{}),C.jsx(Ph,{}),C.jsx(Oh,{})]})}Mf(document.getElementById("root")).render(C.jsx(Je.StrictMode,{children:C.jsx(Rh,{})}));
