@@ -20,6 +20,7 @@ export const BannerContainer = styled.div`
     @media (max-width: 768px){
         width: 93%;
         img{
+            opacity: 0.8;
             border: none;
         }
     }
