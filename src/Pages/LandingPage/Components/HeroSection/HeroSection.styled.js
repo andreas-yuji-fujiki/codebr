@@ -112,7 +112,7 @@ export const HeroSectionContaier = styled.div`
 // divider
 export const SectionDivider = styled.div`
     width: 100vw;
-    height: 600px;
+    height: 194px;
     border-top: 135px solid #000;
     position: absolute;
     z-index: -1;
@@ -121,4 +121,11 @@ export const SectionDivider = styled.div`
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('hero-waves.svg');
+
+    @media (max-width: 768px){
+        border-top: 65px solid #000;
+    }
+    @media (max-width: 500px){
+        border-top: 45px solid #000;
+    }
 `
