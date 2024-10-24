@@ -621,7 +621,7 @@ Error generating stack: `+l.message+`
 `,Lh=()=>C.jsx(Th,{children:C.jsx("img",{src:"/mobile-code-span.png",alt:""})}),Th=X.div`
     display: none;
     position: absolute;
-    z-index: 2;
+    z-index: 999;
     width: 52.7%;
     padding: 15px;
     color: #fff;
