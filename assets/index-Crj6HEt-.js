@@ -543,6 +543,7 @@ Error generating stack: `+l.message+`
     @media (max-width: 768px){
         width: 93%;
         img{
+            opacity: 0.8;
             border: none;
         }
     }
