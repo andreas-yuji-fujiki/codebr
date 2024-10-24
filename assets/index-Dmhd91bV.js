@@ -514,7 +514,7 @@ Error generating stack: `+l.message+`
     align-items: center;
 `,_h=X.div`
     width: 100vw;
-    height: 600px;
+    height: 194px;
     border-top: 135px solid #000;
     position: absolute;
     z-index: -1;
@@ -523,6 +523,13 @@ Error generating stack: `+l.message+`
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('hero-waves.svg');
+
+    @media (max-width: 768px){
+        border-top: 65px solid #000;
+    }
+    @media (max-width: 500px){
+        border-top: 45px solid #000;
+    }
 `,Ph=()=>C.jsxs(C.Fragment,{children:[C.jsxs(Eh,{children:[C.jsx("div",{className:"space stars1"}),C.jsx("div",{className:"space stars2"}),C.jsx("div",{className:"space stars3"}),C.jsx(Ch,{children:C.jsx(kh,{})})]}),C.jsx(_h,{})]}),zh=X.div`
     width: 85%;
     margin: 0 auto;
