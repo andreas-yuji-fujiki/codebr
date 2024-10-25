@@ -47,7 +47,6 @@ export const MobileMenuBar = styled.div`
     width: 355px;
     height: 100vh;
     background-color: #0e1015;
-    padding-left: 3px;
 
     position: fixed;
     left: 0;
@@ -71,7 +70,6 @@ export const MobileMenuBar = styled.div`
 
 // mobile buttons list
 export const MobileNavButtons = styled.nav`
-    margin-top: 36.85%;
     width: 100%;
     height: 85vh;
     display: none;
@@ -90,21 +88,19 @@ export const MobileNavButtons = styled.nav`
         flex-direction: column;
         align-items: flex-start;
         padding: 5px 0 0 22px;
-        gap: 35px;
     }
 
+    margin-top: 24%;
+    @media (max-width: 660px){
+        margin-top: 30%;
+    }
+    @media (max-width: 428px){
+        margin-top: 29%;
+    }
     @media (max-width: 380px){
-        margin-top: 38.2%;
-
-        &.active{
-            gap: 30px;
-        }
+        margin-top: 31.2%;
     }
     @media (max-width: 310px){
-        margin-top: 40.2%;
-
-        &.active{
-            gap: 25px;
-        }
+        margin-top: 32.5%;
     }
 `
