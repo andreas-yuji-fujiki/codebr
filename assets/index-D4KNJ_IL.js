@@ -133,7 +133,7 @@ Error generating stack: `+l.message+`
     }
 
     *{
-        font-size: 20px;
+        font-size: 16px;
         letter-spacing: 1.5px;
     }
 
@@ -142,7 +142,7 @@ Error generating stack: `+l.message+`
         flex-direction: column;
         align-items: flex-start;
         padding: 5px 0 0 22px;
-        gap: 40px;
+        gap: 32px;
     }
 `,rh=X.button`
     color: #fff;
