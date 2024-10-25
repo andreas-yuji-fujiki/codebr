@@ -112,7 +112,7 @@ export const HeroSectionContaier = styled.div`
 // divider
 export const SectionDivider = styled.div`
     width: 100vw;
-    height: 194px;
+    height: 400px;
     border-top: 135px solid #000;
     position: absolute;
     z-index: -1;
