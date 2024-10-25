@@ -32,11 +32,11 @@ export const SolutionsCard = ( { title, cardItems } ) => {
   
   // styled components
   import styled from "styled-components";
-  
+
   const StyledWrapper = styled.div`
     // default behaviors
     width: 49%;
-    height: 400px;
+    min-height: 400px;
     margin-top: 5.3%;
 
     // responsivity

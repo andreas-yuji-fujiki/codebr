@@ -36,7 +36,7 @@ export const SolutionsSection = () => {
 import styled from "styled-components"
 // No seu componente SolutionsContainer
 const SolutionsContainer = styled.section`
-    max-width: 95%;
+    width: 93%;
     margin: 0 auto;
     color: #fff;
 
