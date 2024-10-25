@@ -79,7 +79,6 @@ Error generating stack: `+l.message+`
     @media(max-width: 1145px){
         display: inline-block;
     }
-
     @media(max-width: 660px){
         font-size: 20px;
         padding: 5px 24px 5px 6px;
@@ -101,9 +100,10 @@ Error generating stack: `+l.message+`
 `,th=X.div`
     visibility: hidden;
 
-    width: 320px;
-    height: 98vh;
+    width: 355px;
+    height: 100vh;
     background-color: #0e1015;
+    padding-left: 15px;
 
     position: fixed;
     left: 0;
@@ -123,7 +123,7 @@ Error generating stack: `+l.message+`
         width: 187px;
     }
 `,nh=X.nav`
-    margin-top: 85px;
+    margin-top: 38%;
     width: 100%;
     height: 85vh;
     display: none;
@@ -133,15 +133,16 @@ Error generating stack: `+l.message+`
     }
 
     *{
-        font-size: 15px;
+        font-size: 20px;
+        letter-spacing: 1.5px;
     }
 
-    &.active {
+    &.active{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         padding: 5px 0 0 22px;
-        gap: 20px;
+        gap: 40px;
     }
 `,rh=X.button`
     color: #fff;
@@ -492,7 +493,6 @@ Error generating stack: `+l.message+`
 `,zh=()=>C.jsxs(Nh,{children:[C.jsx(Eh,{}),C.jsx(_h,{}),C.jsx("img",{src:"studio-img.png",alt:"Code Studio"})]}),Nh=X.div`
     display: flex;
     justify-content: center;
-    align-items: center;
 
     img{
         position: relative;
@@ -503,6 +503,7 @@ Error generating stack: `+l.message+`
         opacity: 0.75;
     }
     @media (max-width: 768px){
+        align-items: center;
         img{
             border: none;
             opacity: 0.7;
