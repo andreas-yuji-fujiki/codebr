@@ -652,7 +652,7 @@ Error generating stack: `+o.message+`
 `,Ih=()=>y.jsxs("main",{children:[y.jsxs(Lh,{children:[y.jsx("div",{className:"space stars1"}),y.jsx("div",{className:"space stars2"}),y.jsx("div",{className:"space stars3"}),y.jsx(Th,{children:y.jsx(Eh,{})})]}),y.jsx(Oh,{}),y.jsx(Ph,{})]});function Rh(e){return dt({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m18 16 4-4-4-4"},child:[]},{tag:"path",attr:{d:"m6 8-4 4 4 4"},child:[]},{tag:"path",attr:{d:"m14.5 4-5 16"},child:[]}]})(e)}function $h(e){return dt({tag:"svg",attr:{fill:"currentColor",viewBox:"0 0 16 16"},child:[{tag:"path",attr:{d:"M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"},child:[]}]})(e)}const Ea=({title:e,cardItems:t})=>y.jsx(Mh,{children:y.jsxs("div",{className:"container",children:[y.jsx("div",{className:"hover-area hover-area-1"}),y.jsx("div",{className:"hover-area hover-area-2"}),y.jsx("div",{className:"hover-area hover-area-3"}),y.jsx("div",{className:"hover-area hover-area-4"}),y.jsxs("div",{className:"card",children:[y.jsx("div",{className:"card-header",children:e}),y.jsx("div",{className:"cardInfo",children:y.jsx("ul",{className:"cardItems",children:t.map((n,r)=>y.jsx("li",{className:e,children:n},r))})})]})]})}),Mh=Q.div`
     // default behaviors
     width: 49%;
-    height: 400px;
+    min-height: 400px;
     margin-top: 5.3%;
 
     // responsivity
@@ -785,7 +785,7 @@ Error generating stack: `+o.message+`
         box-shadow: 10px -20px #007bff; /* blue shadow */
     }
 `,Dh=()=>{const e=["Acelere o desenvolvimento com templates personalizáveis!","Integração fácil com ferramentas de desenvolvimento populares!","Economize tempo em projetos repetitivos e foque na inovação!","Acesso a uma comunidade de desenvolvedores para troca de ideias e suporte!"],t=["Tutoriais interativos e didáticos!","Acesso a uma comunidade engajada!","Modifique templates prontos e crie seu próprio projeto!","Suporte disponível sempre que você precisar!"];return y.jsxs(Ah,{children:[y.jsx(Ea,{title:y.jsxs(y.Fragment,{children:[y.jsx(Rh,{})," Programadores"]}),cardItems:e}),y.jsx(Ea,{title:y.jsxs(y.Fragment,{children:[y.jsx($h,{})," Iniciantes"]}),cardItems:t})]})},Ah=Q.section`
-    max-width: 95%;
+    width: 93%;
     margin: 0 auto;
     color: #fff;
 
