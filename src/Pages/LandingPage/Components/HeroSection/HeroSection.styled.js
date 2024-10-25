@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 // section
-export const MainSection = styled.section`
+export const MainSectionContainer = styled.div`
     position: relative;
     overflow: hidden;
     padding: 200px 0 110px 0;

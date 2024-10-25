@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const UrlInput = () => {
+export const DomainBannerLabel = () => {
   return (
     <StyledWrapper>
       <div className="brutalist-container">
@@ -85,4 +85,3 @@ const StyledWrapper = styled.div`
     }
   }
 `;
-export default UrlInput;
