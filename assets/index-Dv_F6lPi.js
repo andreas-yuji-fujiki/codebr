@@ -492,6 +492,7 @@ Error generating stack: `+l.message+`
 `,zh=()=>C.jsxs(Nh,{children:[C.jsx(Eh,{}),C.jsx(_h,{}),C.jsx("img",{src:"studio-img.png",alt:"Code Studio"})]}),Nh=X.div`
     display: flex;
     justify-content: center;
+    align-items: center;
 
     img{
         position: relative;
