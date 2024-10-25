@@ -103,7 +103,6 @@ Error generating stack: `+l.message+`
     width: 355px;
     height: 100vh;
     background-color: #0e1015;
-    padding-left: 3px;
 
     position: fixed;
     left: 0;
@@ -124,7 +123,6 @@ Error generating stack: `+l.message+`
         width: 205px;
     }
 `,nh=X.nav`
-    margin-top: 36.85%;
     width: 100%;
     height: 85vh;
     display: none;
@@ -143,26 +141,25 @@ Error generating stack: `+l.message+`
         flex-direction: column;
         align-items: flex-start;
         padding: 5px 0 0 22px;
-        gap: 35px;
     }
 
+    margin-top: 24%;
+    @media (max-width: 660px){
+        margin-top: 30%;
+    }
+    @media (max-width: 428px){
+        margin-top: 29%;
+    }
     @media (max-width: 380px){
-        margin-top: 38.2%;
-
-        &.active{
-            gap: 30px;
-        }
+        margin-top: 31.2%;
     }
     @media (max-width: 310px){
-        margin-top: 40.2%;
-
-        &.active{
-            gap: 25px;
-        }
+        margin-top: 32.5%;
     }
 `,rh=X.button`
     color: #fff;
     background-color: transparent;
+    padding: 17.5px 5px 17.5px 0;
 
     font-size: 15.8px;
     border: none;
@@ -190,6 +187,10 @@ Error generating stack: `+l.message+`
         content: '>';
         color: #007bff;
         margin-right: 4px;
+    }
+
+    @media (max-width: 380px){
+        padding: 17.5px 5px 17.5px 0;
     }
 `,kt=({text:e,path:t,isActive:n,onClick:r})=>{const i=n?"active":"";return C.jsx(rh,{className:i,onClick:r,children:C.jsx("a",{href:t,children:e})})},ih=()=>{const[e,t]=ve.useState(!1),[n,r]=ve.useState(""),[i,l]=ve.useState("comeceAgora");ve.useEffect(()=>{document.body.style.overflow=e?"hidden":"auto"},[e]);function o(){t(!e),r(c=>c===""?"active":"")}const u=c=>{l(c),t(!1),r("")},s=c=>{e&&!c.target.closest(".menu-bar")&&(t(!1),r(""))};return ve.useEffect(()=>(document.addEventListener("mousedown",s),()=>{document.removeEventListener("mousedown",s)}),[e]),C.jsxs(eh,{className:n,onClick:o,children:[e?C.jsx(G1,{className:"icon"}):C.jsx(X1,{className:"icon"}),C.jsx(th,{className:`menu-bar ${n}`,children:C.jsxs(nh,{className:n,children:[C.jsx(kt,{text:C.jsxs(C.Fragment,{children:[C.jsx(b1,{className:"icon"})," Comece Agora"]}),isActive:i==="comeceAgora",onClick:()=>u("comeceAgora")}),C.jsx(kt,{text:C.jsxs(C.Fragment,{children:[C.jsx(q1,{className:"icon"})," Soluções"]}),isActive:i==="solucoes",onClick:()=>u("solucoes")}),C.jsx(kt,{text:C.jsxs(C.Fragment,{children:[C.jsx(J1,{className:"icon"})," Recursos"]}),isActive:i==="recursos",onClick:()=>u("recursos")}),C.jsx(kt,{text:C.jsxs(C.Fragment,{children:[C.jsx(Z1,{className:"icon"})," Planos"]}),isActive:i==="planos",onClick:()=>u("planos")})]})})]})},lh=X.nav`
     display: flex;
