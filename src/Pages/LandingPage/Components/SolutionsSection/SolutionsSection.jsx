@@ -7,25 +7,27 @@ import { SolutionsCard } from "./Atoms/SolutionsCard"
 
 export const SolutionsSection = () => {
     const programmerItems = [
-        "Acelere o desenvolvimento com templates personalizáveis!",
-        "Integração fácil com ferramentas de desenvolvimento populares!",
-        "Economize tempo em projetos repetitivos e foque na inovação!",
-        "Acesso a uma comunidade de desenvolvedores para troca de ideias e suporte!"
+        "Acelere o desenvolvimento com templates personalizáveis",
+        "Integração fácil com ferramentas de desenvolvimento populares",
+        "Economize tempo em projetos repetitivos e foque na inovação",
+        "Acesso a uma comunidade de desenvolvedores para troca de ideias e suporte"
     ];    
     const beginnerItems = [
-        "Tutoriais interativos e didáticos!",
-        "Acesso a uma comunidade engajada!",
-        "Modifique templates prontos e crie seu próprio projeto!",
-        "Suporte disponível sempre que você precisar!"
+        "Tutoriais interativos e didáticos",
+        "Acesso a uma comunidade engajada",
+        "Modifique templates prontos e crie seu próprio projeto",
+        "Suporte disponível sempre que você precisar"
     ];    
   
     return (
       <SolutionsContainer>
         <SolutionsCard
+          className={"programmers-card"}
           title={<><LuCode2 /> Programadores</>}
           cardItems={ programmerItems }/>
   
         <SolutionsCard
+          className={"beginners-card"}
           title={<><BsFillPersonFill /> Iniciantes</>}
           cardItems={ beginnerItems }/>
       </SolutionsContainer>
