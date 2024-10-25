@@ -268,7 +268,7 @@ Error generating stack: `+l.message+`
 `,dh=()=>C.jsxs(fh,{children:[C.jsx(ah,{}),C.jsx(ch,{})]}),ph=X.header`
     background-color: ${({isScrolled:e})=>e?"#000":"transparent"};
     z-index: 1900;
-    padding: 27px 10px 8px 10px;
+    padding: 27px 10px 15px 10px;
     width: 100%;
     position: fixed;
     top: 0;
