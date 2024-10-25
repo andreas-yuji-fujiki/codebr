@@ -20,7 +20,6 @@ export const MobileNavContainer = styled.div`
     @media(max-width: 1145px){
         display: inline-block;
     }
-
     @media(max-width: 660px){
         font-size: 20px;
         padding: 5px 24px 5px 6px;
@@ -45,9 +44,10 @@ export const MobileNavContainer = styled.div`
 export const MobileMenuBar = styled.div`
     visibility: hidden;
 
-    width: 320px;
-    height: 98vh;
+    width: 355px;
+    height: 100vh;
     background-color: #0e1015;
+    padding-left: 15px;
 
     position: fixed;
     left: 0;
@@ -70,7 +70,7 @@ export const MobileMenuBar = styled.div`
 
 // mobile buttons list
 export const MobileNavButtons = styled.nav`
-    margin-top: 85px;
+    margin-top: 38%;
     width: 100%;
     height: 85vh;
     display: none;
@@ -80,14 +80,15 @@ export const MobileNavButtons = styled.nav`
     }
 
     *{
-        font-size: 15px;
+        font-size: 20px;
+        letter-spacing: 1.5px;
     }
 
-    &.active {
+    &.active{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         padding: 5px 0 0 22px;
-        gap: 20px;
+        gap: 40px;
     }
 `

@@ -18,7 +18,6 @@ import styled from "styled-components"
 const BannerContainer = styled.div `
     display: flex;
     justify-content: center;
-    align-items: center;
 
     img{
         position: relative;
@@ -29,6 +28,7 @@ const BannerContainer = styled.div `
         opacity: 0.75;
     }
     @media (max-width: 768px){
+        align-items: center;
         img{
             border: none;
             opacity: 0.7;
