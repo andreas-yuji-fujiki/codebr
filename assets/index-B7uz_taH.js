@@ -123,7 +123,7 @@ Error generating stack: `+l.message+`
         width: 187px;
     }
 `,nh=X.nav`
-    margin-top: 38.85%;
+    margin-top: 36.85%;
     width: 100%;
     height: 85vh;
     display: none;
