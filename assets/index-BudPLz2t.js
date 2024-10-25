@@ -409,7 +409,105 @@ Error generating stack: `+l.message+`
     @media (max-width: 330px){
         gap: 18px;
     }
-`,kh=()=>C.jsx(C.Fragment,{children:C.jsxs(Sh,{children:[C.jsx(gh,{}),C.jsx(wh,{})]})}),Eh=X.section`
+`,kh=()=>C.jsx(C.Fragment,{children:C.jsxs(Sh,{children:[C.jsx(gh,{}),C.jsx(wh,{})]})}),Eh=()=>C.jsx(Ch,{children:C.jsxs("div",{className:"brutalist-container",children:[C.jsx("input",{placeholder:"seuprojeto.code.com.br",className:"brutalist-input smooth-type",type:"text"}),C.jsx("label",{className:"brutalist-label",children:"domínio code.com.br grátis!"})]})}),Ch=X.div`
+    .brutalist-container {
+      position: absolute;
+      z-index: 1;
+      margin-top: -40px;
+      right: 7%;
+
+      pointer-events: none;
+      opacity: 1;
+      z-index: 1;
+      width: 250px;
+      font-family: monospace;
+  }
+
+  .brutalist-input {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 18.6px;
+    font-weight: bold;
+    color: #000;
+    background-color: #fff;
+    border: 4px solid #000;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0;
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    box-shadow: 5px 5px 0 #000, 10px 10px 0 #007bff;
+  }
+
+  .brutalist-label {
+    position: absolute;
+    left: -3px;
+    top: -30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000;
+    padding: 5px 10px;
+    transform: rotate(-1deg);
+    z-index: 1;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+
+  // responsivity
+  @media (max-width: 1145px){
+    .brutalist-container{
+      right: 43px;
+    }
+    .brutalist-input{
+      font-size: 15px;
+      width: 85%;
+      padding: 10px;
+    }
+    .brutalist-label{
+      font-size: 12px;
+      top: -27px;
+    }
+  }
+  @media (max-width: 1145px){
+    .brutalist-container{
+      right: 3%;
+    }
+  }
+  @media (max-width: 768px){
+    .brutalist-container{
+      display: none;
+    }
+  }
+`,_h=()=>C.jsx(Ph,{children:C.jsx("img",{src:"mobile-code-span.png",alt:""})}),Ph=X.div`
+    display: none;
+
+    @media (max-width: 768px){
+        display: flex;
+        position: absolute;
+        z-index: 1;
+        width: 52.7%;
+        color: #fff;
+        opacity: 0.7;
+    }
+`,zh=()=>C.jsxs(Nh,{children:[C.jsx(Eh,{}),C.jsx(_h,{}),C.jsx("img",{src:"studio-img.png",alt:"Code Studio"})]}),Nh=X.div`
+    display: flex;
+    justify-content: center;
+
+    img{
+        position: relative;
+        z-index: -1;
+        width: 86%;
+        margin: 0 auto;
+        border: 2px solid #007bff;
+        opacity: 0.75;
+    }
+    @media (max-width: 768px){
+        img{
+            border: none;
+            opacity: 0.7;
+        }
+    }
+`,jh=X.div`
     position: relative;
     overflow: hidden;
     padding: 200px 0 110px 0;
@@ -501,7 +599,7 @@ Error generating stack: `+l.message+`
             transform: rotate(360deg);
         }
     }
-`,Ch=X.div`
+`,Lh=X.div`
     max-width: 1340px;
 
     display: flex;
@@ -512,7 +610,7 @@ Error generating stack: `+l.message+`
     display: flex;
     justify-content: center;
     align-items: center;
-`,_h=X.div`
+`,Th=X.div`
     width: 100vw;
     height: 194px;
     border-top: 135px solid #000;
@@ -530,111 +628,4 @@ Error generating stack: `+l.message+`
     @media (max-width: 500px){
         border-top: 45px solid #000;
     }
-`,Ph=()=>C.jsxs(C.Fragment,{children:[C.jsxs(Eh,{children:[C.jsx("div",{className:"space stars1"}),C.jsx("div",{className:"space stars2"}),C.jsx("div",{className:"space stars3"}),C.jsx(Ch,{children:C.jsx(kh,{})})]}),C.jsx(_h,{})]}),zh=X.div`
-    width: 85%;
-    margin: 0 auto;
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    opacity: 0.75;
-
-    img{
-        position: relative;
-        z-index: -1;
-        border: 2px solid #007bff;
-        margin: 0 auto;
-        width: 100%;
-    }
-    @media (max-width: 768px){
-        width: 93%;
-        img{
-            opacity: 0.8;
-            border: none;
-        }
-    }
-    @media (max-width: 335px){
-        width: 90%;
-    }
-`,Nh=()=>C.jsx(jh,{children:C.jsxs("div",{className:"brutalist-container",children:[C.jsx("input",{placeholder:"seuprojeto.code.com.br",className:"brutalist-input smooth-type",type:"text"}),C.jsx("label",{className:"brutalist-label",children:"domínio code.com.br grátis!"})]})}),jh=X.div`
-    .brutalist-container {
-      position: absolute;
-      z-index: 1;
-      margin-top: -40px;
-      right: 7%;
-
-      pointer-events: none;
-      opacity: 1;
-      z-index: 1;
-      width: 250px;
-      font-family: monospace;
-  }
-
-  .brutalist-input {
-    width: 100%;
-    padding: 10px 15px;
-    font-size: 18.6px;
-    font-weight: bold;
-    color: #000;
-    background-color: #fff;
-    border: 4px solid #000;
-    position: relative;
-    overflow: hidden;
-    border-radius: 0;
-    outline: none;
-    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-    box-shadow: 5px 5px 0 #000, 10px 10px 0 #007bff;
-  }
-
-  .brutalist-label {
-    position: absolute;
-    left: -3px;
-    top: -30px;
-    font-size: 14px;
-    font-weight: bold;
-    color: #fff;
-    background-color: #000;
-    padding: 5px 10px;
-    transform: rotate(-1deg);
-    z-index: 1;
-    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-  }
-
-  // responsivity
-  @media (max-width: 1145px){
-    .brutalist-container{
-      right: 43px;
-    }
-    .brutalist-input{
-      font-size: 15px;
-      width: 85%;
-      padding: 10px;
-    }
-    .brutalist-label{
-      font-size: 12px;
-      top: -27px;
-    }
-  }
-  @media (max-width: 1145px){
-    .brutalist-container{
-      right: 3%;
-    }
-  }
-  @media (max-width: 768px){
-    .brutalist-container{
-      display: none;
-    }
-  }
-`,Lh=()=>C.jsx(Th,{children:C.jsx("img",{src:"mobile-code-span.png",alt:""})}),Th=X.div`
-    display: none;
-
-    @media (max-width: 768px){
-        display: inline;
-        position: absolute;
-        z-index: 2;
-        width: 52.7%;
-        color: #fff;
-        opacity: 0.7;
-    }
-`,Oh=()=>C.jsxs(zh,{children:[C.jsx(Nh,{}),C.jsx(Lh,{}),C.jsx("img",{src:"studio-img.png",alt:"Code Studio"})]});function Rh(){return C.jsxs(C.Fragment,{children:[C.jsx(mh,{}),C.jsx(Ph,{}),C.jsx(Oh,{})]})}Mf(document.getElementById("root")).render(C.jsx(Je.StrictMode,{children:C.jsx(Rh,{})}));
+`,Oh=()=>C.jsxs("main",{children:[C.jsxs(jh,{children:[C.jsx("div",{className:"space stars1"}),C.jsx("div",{className:"space stars2"}),C.jsx("div",{className:"space stars3"}),C.jsx(Lh,{children:C.jsx(kh,{})})]}),C.jsx(Th,{}),C.jsx(zh,{})]});function Rh(){return C.jsxs(C.Fragment,{children:[C.jsx(mh,{}),C.jsx(Oh,{})]})}Mf(document.getElementById("root")).render(C.jsx(Je.StrictMode,{children:C.jsx(Rh,{})}));
