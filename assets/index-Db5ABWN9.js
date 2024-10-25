@@ -103,7 +103,7 @@ Error generating stack: `+l.message+`
     width: 355px;
     height: 100vh;
     background-color: #0e1015;
-    padding-left: 15px;
+    padding-left: 4px;
 
     position: fixed;
     left: 0;
@@ -123,7 +123,7 @@ Error generating stack: `+l.message+`
         width: 187px;
     }
 `,nh=X.nav`
-    margin-top: 38%;
+    margin-top: 43%;
     width: 100%;
     height: 85vh;
     display: none;
@@ -142,7 +142,7 @@ Error generating stack: `+l.message+`
         flex-direction: column;
         align-items: flex-start;
         padding: 5px 0 0 22px;
-        gap: 32px;
+        gap: 35px;
     }
 `,rh=X.button`
     color: #fff;
