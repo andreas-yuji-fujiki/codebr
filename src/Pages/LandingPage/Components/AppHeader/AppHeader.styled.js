@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const AppHeaderBox = styled.header`
     background-color: ${({ isScrolled }) => (isScrolled ? "#000" : "transparent")};
     z-index: 1900;
-    padding: 27px 10px 8px 10px;
+    padding: 27px 10px 15px 10px;
     width: 100%;
     position: fixed;
     top: 0;
