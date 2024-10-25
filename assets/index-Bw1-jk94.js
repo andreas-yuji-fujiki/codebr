@@ -103,7 +103,7 @@ Error generating stack: `+l.message+`
     width: 355px;
     height: 100vh;
     background-color: #0e1015;
-    padding-left: 4px;
+    padding-left: 3px;
 
     position: fixed;
     left: 0;
@@ -123,7 +123,7 @@ Error generating stack: `+l.message+`
         width: 187px;
     }
 `,nh=X.nav`
-    margin-top: 43%;
+    margin-top: 38.85%;
     width: 100%;
     height: 85vh;
     display: none;
