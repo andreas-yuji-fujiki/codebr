@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import { MdMenu, MdMenuOpen, MdOutlineRocketLaunch } from "react-icons/md";
 import { IoMdPaperPlane } from "react-icons/io";
 import { FaCode } from "react-icons/fa";
@@ -11,24 +12,44 @@ import {
 
 import { LinkButton } from "../../../Atoms/HeaderNavItem/NavLinkButton";
 
-import { useState } from "react";
-
 export const MobileHeaderNav = () => {
-    // verifying if it is active
     const [isActive, setIsActive] = useState(false);
     const [activeClass, setActiveClass] = useState('');
+    const [activeItem, setActiveItem] = useState('comeceAgora');
 
-    function handleClick(){
+    useEffect(() => {
+        // Controla o overflow do body com base no estado `isActive`
+        document.body.style.overflow = isActive ? 'hidden' : 'auto';
+    }, [isActive]);
+
+    function handleClick() {
         setIsActive(!isActive);
-        setActiveClass(prevClass => prevClass === '' ? 'active' : '');
+        setActiveClass(prevClass => (prevClass === '' ? 'active' : ''));
     }
 
-    // Estado para controlar o item ativo, iniciando com "comeceAgora"
-    const [activeItem, setActiveItem] = useState('comeceAgora');
     const handleMobileActive = (item) => {
-        setActiveItem(item); // Define o item ativo
+        setActiveItem(item);
+        setIsActive(false); // Fecha o menu ao clicar em um item
+        setActiveClass(''); // Remove a classe ativa
     };
-    
+
+    const handleCloseOnClickOutside = (e) => {
+        // Verifica se o clique foi fora do `MobileMenuBar`
+        if (isActive && !e.target.closest('.menu-bar')) {
+            setIsActive(false);
+            setActiveClass('');
+        }
+    };
+
+    useEffect(() => {
+        // Adiciona o evento de clique global ao montar o componente
+        document.addEventListener("mousedown", handleCloseOnClickOutside);
+        return () => {
+            // Remove o evento ao desmontar o componente
+            document.removeEventListener("mousedown", handleCloseOnClickOutside);
+        };
+    }, [isActive]);
+
     return (
         <MobileNavContainer className={activeClass} onClick={handleClick}>
             {isActive ? (
@@ -36,31 +57,28 @@ export const MobileHeaderNav = () => {
             ) : (
                 <MdMenu className="icon" />
             )}
-            <MobileMenuBar className={activeClass}>
+            <MobileMenuBar className={`menu-bar ${activeClass}`}>
                 <MobileNavButtons className={activeClass}>
                     <LinkButton 
-                    text={<><PiStarThin className="icon"/> Comece Agora</>}
-                    isActive={activeItem === 'comeceAgora'} // Compara para definir se é ativo
-                    onClick={() => handleMobileActive('comeceAgora')} // Passa o identificador para a função de clique
-                />
-
-                <LinkButton 
-                    text={<><FaCode className="icon"/> Soluções</>}
-                    isActive={activeItem === 'solucoes'} // Compara para definir se é ativo
-                    onClick={() => handleMobileActive('solucoes')} // Passa o identificador para a função de clique
-                />
-
-                <LinkButton
-                    text={<><IoMdPaperPlane className="icon"/> Recursos</>}
-                    isActive={activeItem === 'recursos'} // Compara para definir se é ativo
-                    onClick={() => handleMobileActive('recursos')} // Passa o identificador para a função de clique
-                />
-
-                <LinkButton 
-                    text={<><MdOutlineRocketLaunch className="icon"/> Planos</>}
-                    isActive={activeItem === 'planos'} // Compara para definir se é ativo
-                    onClick={() => handleMobileActive('planos')} // Passa o identificador para a função de clique
-                />
+                        text={<><PiStarThin className="icon"/> Comece Agora</>}
+                        isActive={activeItem === 'comeceAgora'}
+                        onClick={() => handleMobileActive('comeceAgora')}
+                    />
+                    <LinkButton 
+                        text={<><FaCode className="icon"/> Soluções</>}
+                        isActive={activeItem === 'solucoes'}
+                        onClick={() => handleMobileActive('solucoes')}
+                    />
+                    <LinkButton
+                        text={<><IoMdPaperPlane className="icon"/> Recursos</>}
+                        isActive={activeItem === 'recursos'}
+                        onClick={() => handleMobileActive('recursos')}
+                    />
+                    <LinkButton 
+                        text={<><MdOutlineRocketLaunch className="icon"/> Planos</>}
+                        isActive={activeItem === 'planos'}
+                        onClick={() => handleMobileActive('planos')}
+                    />
                 </MobileNavButtons>
             </MobileMenuBar>
         </MobileNavContainer>
