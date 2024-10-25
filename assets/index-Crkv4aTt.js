@@ -117,10 +117,11 @@ Error generating stack: `+l.message+`
         width: 248px;
     }
     @media (max-width: 380px){
-        width: 200px;
+        width: 230px;
+        padding-left: 0;
     }
     @media (max-width: 310px){
-        width: 187px;
+        width: 205px;
     }
 `,nh=X.nav`
     margin-top: 36.85%;
@@ -143,6 +144,21 @@ Error generating stack: `+l.message+`
         align-items: flex-start;
         padding: 5px 0 0 22px;
         gap: 35px;
+    }
+
+    @media (max-width: 380px){
+        margin-top: 38.2%;
+
+        &.active{
+            gap: 30px;
+        }
+    }
+    @media (max-width: 310px){
+        margin-top: 40.2%;
+
+        &.active{
+            gap: 25px;
+        }
     }
 `,rh=X.button`
     color: #fff;
