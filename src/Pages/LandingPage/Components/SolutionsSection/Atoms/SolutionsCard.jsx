@@ -184,7 +184,7 @@ export const SolutionsCard = ( { title, cardItems, className } ) => {
     .hover-area-4:hover ~ .card {
         transform-origin: right top;
         transform: rotateX(-2.5deg) rotateY(-2.5deg) translateZ(0);
-        box-shadow: 10px -10px #007bff; /* blue shadow */
+        box-shadow: 10px -10px #007bff;
     }
 
     // responsivity
