@@ -66,13 +66,13 @@ export const SolutionsCard = ( { title, cardItems, className } ) => {
     .programmers-card .card{
       transform: rotateX(2.5deg) rotateY(2.5deg) translateZ(0);
       transform-origin: left bottom;
-      box-shadow: -10px 20px #007bff; /* sombra azul */
+      box-shadow: -10px 10px #007bff; /* sombra azul */
     }
   // beginners card
     .beginners-card .card{
       transform-origin: right top;
       transform: rotateX(-2.5deg) rotateY(-2.5deg) translateZ(0);
-      box-shadow: 10px -20px #007bff; /* blue shadow */
+      box-shadow: 10px -10px #007bff; /* blue shadow */
     }
     
     .card-header {
@@ -101,6 +101,7 @@ export const SolutionsCard = ( { title, cardItems, className } ) => {
     }
     .cardItems{
         list-style: none;
+        width: 100%;
         padding: 30px;
         opacity: 0.85;
 
@@ -156,7 +157,7 @@ export const SolutionsCard = ( { title, cardItems, className } ) => {
     .hover-area-1:hover ~ .card {
         transform: rotateX(2.5deg) rotateY(-2.5deg) translateZ(0);
         transform-origin: right bottom;
-        box-shadow: 10px 20px #007bff; /* sombra azul */
+        box-shadow: 10px 10px #007bff; /* sombra azul */
     }
     .hover-area-2 {
         top: 0;
@@ -165,7 +166,7 @@ export const SolutionsCard = ( { title, cardItems, className } ) => {
     .hover-area-2:hover ~ .card {
         transform: rotateX(2.5deg) rotateY(2.5deg) translateZ(0);
         transform-origin: left bottom;
-        box-shadow: -10px 20px #007bff; /* sombra azul */
+        box-shadow: -10px 10px #007bff; /* sombra azul */
     }
     .hover-area-3 {
         bottom: 0;
@@ -174,7 +175,7 @@ export const SolutionsCard = ( { title, cardItems, className } ) => {
     .hover-area-3:hover ~ .card {
         transform-origin: left top;
         transform: rotateX(-2.5deg) rotateY(2.5deg) translateZ(0);
-        box-shadow: -10px -20px #007bff; /* sombra azul */
+        box-shadow: -10px -10px #007bff; /* sombra azul */
     }
     .hover-area-4 {
         bottom: 0;
@@ -183,25 +184,29 @@ export const SolutionsCard = ( { title, cardItems, className } ) => {
     .hover-area-4:hover ~ .card {
         transform-origin: right top;
         transform: rotateX(-2.5deg) rotateY(-2.5deg) translateZ(0);
-        box-shadow: 10px -20px #007bff; /* blue shadow */
+        box-shadow: 10px -10px #007bff; /* blue shadow */
     }
 
     // responsivity
-    @media (max-width: 768px) {
+    @media (max-width: 1520px){
       width: 100%;
-      margin-top: 10%;
-
-      .cardItems{
-        width: 85%;
-        font-size: 23px;
-      }
+    }
+    @media (max-width: 768px) {
+      width: 95%;
 
       .hover-area{
         pointer-events: none;
       }
 
-      .programmers-card{
-        margin-bottom: 8%;
+      .cardItems{
+        padding: 30px 20px 30px 30px;
+      }
+
+      .programmers-card .card,
+      .beginners-card .card{
+        transform: rotateX(0) rotateY(0) translateZ(0);
+        transform-origin: left bottom;
+        box-shadow: 0px -8px #007bff; /* sombra azul */
       }
     }
 `;

@@ -47,8 +47,15 @@ const SolutionsContainer = styled.section`
     justify-content: space-between;
     align-items: center;
 
+    @media (max-width: 1520px){
+      width: 96%;
+    }
     @media (max-width: 768px){
-        gap: 0;
+        margin-top: 5.1%;
+        width: 100%;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
     }
 `;

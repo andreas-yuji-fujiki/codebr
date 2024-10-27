@@ -6,7 +6,7 @@ export const StudioBanner = () => {
     return(
         <BannerContainer>
             <DomainBannerLabel/>
-            <MobileLabel/>
+            {/* <MobileLabel/> */}
             <img src="studio-img.png" alt="Code Studio" />
         </BannerContainer>
     )
