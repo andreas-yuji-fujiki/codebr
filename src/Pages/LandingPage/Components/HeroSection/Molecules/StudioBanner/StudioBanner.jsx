@@ -1,6 +1,5 @@
 // components import
 import { DomainBannerLabel } from '../../Atoms/DomainBannerLabel/DomainBannerLabel'
-import { MobileLabel } from '../../Atoms/DomainBannerLabel/MobileBannerLabel/MobileBannerLabel'
 
 export const StudioBanner = () => {
     return(
