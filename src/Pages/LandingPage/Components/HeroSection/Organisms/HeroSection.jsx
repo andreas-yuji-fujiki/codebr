@@ -1,6 +1,6 @@
 // components
-import { MainCallToAction } from './Molecules/MainCallToAction/MainCallToAction';
-import { StudioBanner } from './Molecules/StudioBanner/StudioBanner';
+import { MainCallToAction } from '../Molecules/MainCallToAction/MainCallToAction';
+import { StudioBanner } from '../Molecules/StudioBanner/StudioBanner';
 
 // styled components
 import { 

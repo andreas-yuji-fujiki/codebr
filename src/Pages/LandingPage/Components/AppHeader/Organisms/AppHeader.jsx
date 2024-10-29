@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 
 // components
-import { LogoTitle } from "./Atoms/LogoTitle/LogoTitle";
-import { MobileHeaderNav } from "./Molecules/HeaderNav/MobileHeaderNav/MobileHeaderNav";
-import { HeaderNav } from "./Molecules/HeaderNav/HeaderNav";
-import { AccountSection } from "./Molecules/AccountSection/AccountSection";
+import { LogoTitle } from "../Atoms/LogoTitle/LogoTitle";
+import { MobileHeaderNav } from "../Molecules/HeaderNav/MobileHeaderNav/MobileHeaderNav";
+import { HeaderNav } from "../Molecules/HeaderNav/HeaderNav";
+import { AccountSection } from "../Molecules/AccountSection/AccountSection";
 
 // styles
 import { AppHeaderContainer, AppHeaderBox } from "./AppHeader.styled";

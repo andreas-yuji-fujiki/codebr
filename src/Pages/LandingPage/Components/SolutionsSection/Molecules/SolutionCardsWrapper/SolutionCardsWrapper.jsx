@@ -2,10 +2,12 @@
 import { LuCode2 } from "react-icons/lu";
 import { BsFillPersonFill } from "react-icons/bs";
 
-// components
-import { SolutionsCard } from "./Atoms/SolutionsCard"
+// components import
+import { SolutionCard } from "../../Atoms/SolutionCard"
 
-export const SolutionsSection = () => {
+// solution cards container component
+export const SolutionCardsWrapper = () => {
+    // cards list items
     const programmerItems = [
         "Acelere o desenvolvimento com templates personalizáveis",
         "Integração fácil com ferramentas de desenvolvimento populares",
@@ -18,26 +20,25 @@ export const SolutionsSection = () => {
         "Modifique templates prontos e crie seu próprio projeto",
         "Suporte disponível sempre que você precisar"
     ];    
-  
+    
     return (
-      <SolutionsContainer>
-        <SolutionsCard
-          className={"programmers-card"}
-          title={<><LuCode2 /> Programadores</>}
-          cardItems={ programmerItems }/>
-  
-        <SolutionsCard
-          className={"beginners-card"}
-          title={<><BsFillPersonFill /> Iniciantes</>}
-          cardItems={ beginnerItems }/>
-      </SolutionsContainer>
-    );
-  };
+        <SolutionCardsContainer>
+            <SolutionCard
+            className={"programmers-card"}
+            title={<><LuCode2 /> Programadores</>}
+            cardItems={ programmerItems }/>
+
+            <SolutionCard
+            className={"beginners-card"}
+            title={<><BsFillPersonFill /> Iniciantes</>}
+            cardItems={ beginnerItems }/>
+        </SolutionCardsContainer>
+    )
+}
 
 // styled
 import styled from "styled-components"
-// No seu componente SolutionsContainer
-const SolutionsContainer = styled.section`
+const SolutionCardsContainer = styled.article`
     width: 93%;
     margin: 0 auto;
     color: #fff;

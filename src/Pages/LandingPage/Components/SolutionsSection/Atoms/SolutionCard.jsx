@@ -1,4 +1,4 @@
-export const SolutionsCard = ( { title, cardItems, className } ) => {
+export const SolutionCard = ( { title, cardItems, className } ) => {
     return (
       <StyledWrapper>
         <div className={`container ${className}`}>
@@ -32,12 +32,10 @@ export const SolutionsCard = ( { title, cardItems, className } ) => {
   
   // styled components
   import styled from "styled-components";
-
   const StyledWrapper = styled.div`
     // default behaviors
     width: 49%;
     min-height: 400px;
-    margin-top: 5.3%;
 
     // general styles
     .container {
