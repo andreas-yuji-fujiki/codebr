@@ -22,6 +22,4 @@ const SolutionsSectionContainer = styled.section`
   flex-direction: column;
   gap: 85px;
   padding: 85px 0 170px 0;
-
-  outline: 1px solid #fff;
 `
