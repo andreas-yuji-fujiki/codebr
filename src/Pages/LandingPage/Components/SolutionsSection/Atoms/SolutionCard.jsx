@@ -64,13 +64,13 @@ export const SolutionCard = ( { title, cardItems, className } ) => {
     .programmers-card .card{
       transform: rotateX(2.5deg) rotateY(2.5deg) translateZ(0);
       transform-origin: left bottom;
-      box-shadow: -10px 10px #007bff; /* sombra azul */
+      box-shadow: -10px 10px #007bff;
     }
   // beginners card
     .beginners-card .card{
-      transform-origin: right top;
-      transform: rotateX(-2.5deg) rotateY(-2.5deg) translateZ(0);
-      box-shadow: 10px -10px #007bff; /* blue shadow */
+        transform: rotateX(2.5deg) rotateY(-2.5deg) translateZ(0);
+        transform-origin: right bottom;
+        box-shadow: 10px 10px #007bff;
     }
     
     .card-header {
@@ -132,7 +132,7 @@ export const SolutionCard = ( { title, cardItems, className } ) => {
         transform: rotateX(0deg) rotateY(0deg);
     }
   // begginers card particularity
-    .beginners-card .hover-area-4:hover ~ .card{
+    .beginners-card .hover-area-1:hover ~ .card{
       transform: rotateX(0deg) rotateY(0deg);
     }
 
@@ -155,7 +155,7 @@ export const SolutionCard = ( { title, cardItems, className } ) => {
     .hover-area-1:hover ~ .card {
         transform: rotateX(2.5deg) rotateY(-2.5deg) translateZ(0);
         transform-origin: right bottom;
-        box-shadow: 10px 10px #007bff; /* sombra azul */
+        box-shadow: 10px 10px #007bff;
     }
     .hover-area-2 {
         top: 0;
