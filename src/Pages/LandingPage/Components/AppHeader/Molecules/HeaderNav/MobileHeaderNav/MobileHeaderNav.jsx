@@ -28,6 +28,7 @@ export const MobileHeaderNav = () => {
     }
 
     const handleMobileActive = (item) => {
+        console.log(item)
         setActiveItem(item);
         setIsActive(false); // Fecha o menu ao clicar em um item
         setActiveClass(''); // Remove a classe ativa
@@ -59,26 +60,38 @@ export const MobileHeaderNav = () => {
             )}
             <MobileMenuBar className={`menu-bar ${activeClass}`}>
                 <MobileNavButtons className={activeClass}>
-                    <LinkButton 
-                        text={<><PiStarThin className="icon"/> Comece Agora</>}
-                        isActive={activeItem === 'comeceAgora'}
-                        onClick={() => handleMobileActive('comeceAgora')}
-                    />
-                    <LinkButton 
-                        text={<><FaCode className="icon"/> Soluções</>}
-                        isActive={activeItem === 'solucoes'}
-                        onClick={() => handleMobileActive('solucoes')}
-                    />
-                    <LinkButton
-                        text={<><IoMdPaperPlane className="icon"/> Recursos</>}
-                        isActive={activeItem === 'recursos'}
-                        onClick={() => handleMobileActive('recursos')}
-                    />
-                    <LinkButton 
-                        text={<><MdOutlineRocketLaunch className="icon"/> Planos</>}
-                        isActive={activeItem === 'planos'}
-                        onClick={() => handleMobileActive('planos')}
-                    />
+                <LinkButton 
+                    text={<><PiStarThin className="icon"/> Comece Agora</>}
+                    isActive={activeItem === 'comeceAgora'}
+                    onClick={(e) => {
+                        e.stopPropagation(); // Impede o evento de propagação
+                        handleMobileActive('comeceAgora');
+                    }}
+                />
+                <LinkButton 
+                    text={<><FaCode className="icon"/> Soluções</>}
+                    isActive={activeItem === 'solucoes'}
+                    onClick={(e) => {
+                        e.stopPropagation();
+                        handleMobileActive('solucoes');
+                    }}
+                />
+                <LinkButton
+                    text={<><IoMdPaperPlane className="icon"/> Recursos</>}
+                    isActive={activeItem === 'recursos'}
+                    onClick={(e) => {
+                        e.stopPropagation();
+                        handleMobileActive('recursos');
+                    }}
+                />
+                <LinkButton 
+                    text={<><MdOutlineRocketLaunch className="icon"/> Planos</>}
+                    isActive={activeItem === 'planos'}
+                    onClick={(e) => {
+                        e.stopPropagation();
+                        handleMobileActive('planos');
+                    }}
+                />
                 </MobileNavButtons>
             </MobileMenuBar>
         </MobileNavContainer>
