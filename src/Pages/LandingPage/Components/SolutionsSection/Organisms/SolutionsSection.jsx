@@ -1,5 +1,5 @@
 // components import
-import { SolutionCardsWrapper } from "../Molecules/SolutionCardsWrapper/SolutionCardsWrapper"
+import { SolutionCardsWrapper } from "../Molecules/SolutionCardsWrapper"
 
 // solutions section component
 export const SolutionsSection = () => {

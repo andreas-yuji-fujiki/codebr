@@ -3,7 +3,7 @@ import { LuCode2 } from "react-icons/lu";
 import { BsFillPersonFill } from "react-icons/bs";
 
 // components import
-import { SolutionCard } from "../../Atoms/SolutionCard"
+import { SolutionCard } from "../Atoms/SolutionCard"
 
 // solution cards container component
 export const SolutionCardsWrapper = () => {
