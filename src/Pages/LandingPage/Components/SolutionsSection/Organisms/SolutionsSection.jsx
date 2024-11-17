@@ -1,13 +1,11 @@
 // components import
 import { SolutionCardsWrapper } from "../Molecules/SolutionCardsWrapper/SolutionCardsWrapper"
-import { CodeDescription } from "../Molecules/CodeDescription/CodeDescription"
 
 // solutions section component
 export const SolutionsSection = () => {
   return (
     <SolutionsSectionContainer>
 
-      <CodeDescription/>
       <SolutionCardsWrapper/>
       
     </SolutionsSectionContainer>
