@@ -8,7 +8,7 @@ export const SolutionCard = ( { title, cardItems, className } ) => {
             <div className="hover-area hover-area-3" />
             <div className="hover-area hover-area-4" />
 
-          {/* card */}
+          {/* card  */}
           <div className='card'>
             {/* card header */}
             <div className="card-header">
