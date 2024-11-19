@@ -1,12 +1,15 @@
 // components import
 import { SolutionCardsWrapper } from "../Molecules/SolutionCardsWrapper"
 import { CreationSteps } from "../Molecules/CreationSteps"
+import { SectionTitle } from "../../SectionTitle/SectionTitle"
 
 // solutions section component
 export const SolutionsSection = () => {
   return (
     <SolutionsSectionContainer>
 
+      <SectionTitle 
+        content={<><span className="highlight">3 Passos</span> para criar seu projeto:</>}/>
       <CreationSteps/>
       <SolutionCardsWrapper/>
       
