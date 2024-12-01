@@ -43,10 +43,13 @@ export function CreationSteps() {
 }
 
 const StepsWrapper = styled.div`
+    opacity: 0.86;
+    position: relative;
     color: #fff;
     background-color: #161616;
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
+    margin-top: -100px;
 
     #titlesWrapper {
         list-style: none;

@@ -39,8 +39,9 @@ export const SolutionCardsWrapper = () => {
 // styled
 import styled from "styled-components"
 const SolutionCardsContainer = styled.article`
+    position: relative;
     width: 93%;
-    margin: 0 auto;
+    margin: -92px auto 0 auto;
     color: #fff;
 
     display: flex;

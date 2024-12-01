@@ -86,6 +86,7 @@ export const SolutionCard = ( { title, cardItems, className } ) => {
       text-transform: uppercase;
 
       background-color: #000;
+      border-top: 0.1px solid #1a1a1c;
     }
 
     // card list items & button

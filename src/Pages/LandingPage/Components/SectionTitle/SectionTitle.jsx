@@ -20,9 +20,13 @@ import styled from "styled-components";
 
 const Divider = styled.img`
     width: 100%;
+    
     &.top{
         margin-bottom: -10px;
         transform: rotate(180deg) scaleX(-1);
+    }
+    &.bottom{
+        position: absolute;
     }
 `
 const SectionTitleWrapper = styled.div`
@@ -34,7 +38,7 @@ const SectionTitleWrapper = styled.div`
     width: 100%;
 
     h2{
-        padding: 160px 0;
+        padding: 200px 0;
         position: relative;
         z-index: 2;
         text-align: center;

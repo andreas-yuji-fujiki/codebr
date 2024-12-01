@@ -8,13 +8,15 @@ export const SolutionsSection = () => {
   return (
     <SolutionsSectionContainer>
 
-      <SectionTitle 
-        content={<><span className="highlight">3 Passos</span> para criar seu projeto:</>}/>
-      <CreationSteps/>
+      <div>
+        <SectionTitle content={<><span className="highlight">3 Passos</span> para criar seu projeto:</>}/>
+        <CreationSteps/>
+      </div>
 
-      <SectionTitle 
-        content={<>O Code <span className="highlight">facilita</span> para você:</>}/>
-      <SolutionCardsWrapper/>
+      <div>
+        <SectionTitle content={<>O Code <span className="highlight">facilita</span> para você:</>}/>
+        <SolutionCardsWrapper/>
+      </div>
       
     </SolutionsSectionContainer>
   )
@@ -26,7 +28,6 @@ import styled from "styled-components"
 const SolutionsSectionContainer = styled.section`
   display: flex;
   flex-direction: column;
-  gap: 85px;
-  padding-bottom:170px;
-  margin-top: 85px;
+  gap: 80px;
+  margin: 80px 0;
 `
