@@ -206,6 +206,16 @@ export const SolutionCard = ( { title, cardItems, className } ) => {
         transform-origin: left bottom;
         box-shadow: 0px -8px #007bff; /* sombra azul */
       }
+      @media(max-width: 400px){
+        .card-header{
+          font-size: 20px;
+        }
+      }
+      @media(max-width: 370px){
+        .card-header{
+          font-size: 15px;
+        }
+      }
     }
 `;
   
