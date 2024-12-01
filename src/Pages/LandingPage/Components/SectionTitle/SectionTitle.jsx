@@ -9,8 +9,11 @@ export function SectionTitle({content}){
 // styled components
 import styled from "styled-components"
 const SectionTitleWrapper = styled.h2`
-    padding: 40px 0 60px 0;
+    padding: 150px 0;
     width: 100%;
+
+    background-image: url('./spinning-space-bg.gif');
+    background-position: top;
 
     text-align: center;
     font-size: 46px;

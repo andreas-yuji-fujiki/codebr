@@ -9,7 +9,7 @@ export const SolutionsSection = () => {
     <SolutionsSectionContainer>
 
       <SectionTitle 
-        content={<><span className="highlight">3 Passos</span> para criar seu projeto!</>}/>
+        content={<><span className="highlight">3 Passos</span> para criar seu projeto:</>}/>
       <CreationSteps/>
 
       <SectionTitle 
@@ -27,5 +27,6 @@ const SolutionsSectionContainer = styled.section`
   display: flex;
   flex-direction: column;
   gap: 85px;
-  padding: 85px 0 170px 0;
+  padding-bottom:170px;
+  margin-top: 85px;
 `

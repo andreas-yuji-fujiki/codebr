@@ -3,9 +3,9 @@ import styled from "styled-components";
 
 export function CreationSteps() {
     const cardTitles = [
-        { title: "Codificação", src: "codeStep.png", alt: "Imagem de Codificação" },
-        { title: "Tabelas", src: "tablesStep.png", alt: "Imagem de Tabelas" },
-        { title: "Compartilhe!", src: "shareStep.png", alt: "Imagem de Compartilhamento" },
+        { title: "Codificação", src: "./codeStep.png", alt: "Imagem de Codificação" },
+        { title: "Tabelas", src: "./tablesStep.png", alt: "Imagem de Tabelas" },
+        { title: "Compartilhe!", src: "./shareStep.png", alt: "Imagem de Compartilhamento" },
     ];
 
     const [selectedItem, setSelectedItem] = useState(null);
