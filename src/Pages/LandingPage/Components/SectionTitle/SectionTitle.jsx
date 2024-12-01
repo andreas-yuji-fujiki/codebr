@@ -9,12 +9,10 @@ export function SectionTitle({content}){
 // styled components
 import styled from "styled-components"
 const SectionTitleWrapper = styled.h2`
+    padding: 40px 0 60px 0;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
 
+    text-align: center;
     font-size: 46px;
     letter-spacing: 7px;
     font-weight: 900;
@@ -23,7 +21,7 @@ const SectionTitleWrapper = styled.h2`
     .highlight{
         text-decoration: underline;
         text-decoration-thickness: 2px;
-        text-underline-offset: 10px;
+        text-underline-offset: 12px;
         text-decoration-color: #007bff;
     }
 `

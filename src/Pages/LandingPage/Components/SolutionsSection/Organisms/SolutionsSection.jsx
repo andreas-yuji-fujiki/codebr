@@ -9,8 +9,11 @@ export const SolutionsSection = () => {
     <SolutionsSectionContainer>
 
       <SectionTitle 
-        content={<><span className="highlight">3 Passos</span> para criar seu projeto:</>}/>
+        content={<><span className="highlight">3 Passos</span> para criar seu projeto!</>}/>
       <CreationSteps/>
+
+      <SectionTitle 
+        content={<>O Code <span className="highlight">facilita</span> para você:</>}/>
       <SolutionCardsWrapper/>
       
     </SolutionsSectionContainer>
